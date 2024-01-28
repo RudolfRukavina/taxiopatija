@@ -192,7 +192,7 @@
 
       </div>
       <div
-        class="ring-1 lg:row-start-3 items-center h-full flex p-1 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+        class="ring-1 lg:row-start-3 items-center h-full flex p-6 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
           <!-- Carousel wrapper -->
 
@@ -200,31 +200,31 @@
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/273039287_116521870925415_4001426306569107080_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=JgVIpJO3LAcAX-R8R_9&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCJJsXF6oC7rCNgFBWWF0mcr36oUpdn-UnQpnijjL3mJQ&oe=65BBEC07"
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/273116862_116521864258749_1651446924869170264_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=VRa3VgIGQFUAX9CSttF&_nc_ht=scontent.fzag3-1.fna&oh=00_AfARO3uncVADV2lhiC-1Vzi4D-Qng5RgzDLyaL0OxWCKUQ&oe=65BB3A50"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272925225_116521867592082_7492078064058286627_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=pgDuup2XYm8AX8QBpCi&_nc_ht=scontent.fzag3-1.fna&oh=00_AfDnjzkuZOH6mz9rY257x9xajPjcCE2dCO0CpUNdfgezIA&oe=65BB259F"
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272964922_116521874258748_3108660647323063802_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=fghuPyr15YcAX_DlzZH&_nc_ht=scontent.fzag3-1.fna&oh=00_AfD_4Ldxt096nVXlW0gIPUlMhELwarJ_IuJ1-MJEapUVhg&oe=65BB3C04"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/278769503_139645158613086_3375222447519334159_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=fjNRPy8jT2AAX9uAJ5D&_nc_ht=scontent.fzag3-1.fna&oh=00_AfBIjTEGLZ7UPXuJGUJ8IO57HqjdL07nRmS_j0Hm7Q-Vyw&oe=65BAED0A"
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272925225_116521867592082_7492078064058286627_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=pgDuup2XYm8AX8QBpCi&_nc_ht=scontent.fzag3-1.fna&oh=00_AfDnjzkuZOH6mz9rY257x9xajPjcCE2dCO0CpUNdfgezIA&oe=65BB259F"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
             </div>
             <!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/279266508_139644618613140_6698111823474407275_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=Y2tpYTiTMIsAX_wHS5C&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCbEwzTWmFPKXX0Z1v64pO9yylpMs8hE7MXks0jt66RhQ&oe=65BBC53F"
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272993083_116521877592081_2988084878874185271_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=cCq7HeHvuyEAX9ybFhX&_nc_ht=scontent.fzag3-1.fna&oh=00_AfAvXGaustVvu2_A247xiTu0GQVNnkGdB7Oa-MqZUSECTg&oe=65BC0FC5"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
             </div>
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/278887684_139644198613182_2506728438494902793_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=_TAENQmxOnsAX9q955e&_nc_ht=scontent.fzag3-1.fna&oh=00_AfDc4mBuLZWguOqzZx5IcCCeSv0zEmJ32y-oAVZUqOM5bw&oe=65BC249E"
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/273039287_116521870925415_4001426306569107080_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=JgVIpJO3LAcAX-R8R_9&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCJJsXF6oC7rCNgFBWWF0mcr36oUpdn-UnQpnijjL3mJQ&oe=65BBEC07"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
             </div>
           </div>
@@ -341,10 +341,10 @@
 
 
       <div
-        class="ring-1 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90% dark:ring-white/10 ring-primary/5 flex flex-col p-8 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-2 lg:row-start-4 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+        class="ring-1 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90% dark:ring-white/10 ring-primary/5 flex flex-col p-4 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-2 lg:row-start-4 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
         <div>
           <NuxtLink to='/seminari'
-            class="inline-flex  justify-between items-center py-4 px-1 pr-4 mb-3 text-sm text-gray-700 bg-white  shadow rounded-full   "
+            class="inline-flex  justify-between text-nowrap items-center py-4 px-1 pr-4 mb-3 text-sm text-gray-700 bg-white  shadow rounded-full   "
             role="alert"> <span class="text-lg px-5 text-nowrap py-1 font-bold">Pomoć u pisanju seminara</span>
             <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
@@ -479,10 +479,6 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <div>
-    <slot />
   </div>
 </template>
 
