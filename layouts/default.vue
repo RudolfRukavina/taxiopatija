@@ -28,43 +28,12 @@
 
       <div
         class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
-        <div class="w-full">
+        <div class="max-w-full">
           <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-7xl">
             Instrukcije
           </p>
         </div>
-        <!-- <div
-          class="parallelline grid mt-4 grid-cols-2 text-center md:grid-cols-8 lg:grid-cols-4 gap-y-4 gap-4 justify-evenly w-full">
-          <a class="phone mx-auto" href="tel:+385917865619">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-          </a>
-          <a class="phone mx-auto" href="tel:+385917865619">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-          </a>
 
-          <a class="facebook mx-auto" target="_blank" href="https://www.facebook.com/poduke.parallel">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a class="instagram mx-auto" target="_blank" href="https://www.instagram.com/poduke.parallel/">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-        </div> -->
         <div class='mt-3 '>
           <div>
             <RouterLink to="/osnovna"
@@ -106,17 +75,182 @@
       </div>
       <div
         class="ring-1 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90% lg:row-span-2 flex flex-col group hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 lg:row-start-2 md:grid-cols-2 md:grid lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
-        <div>
+        <div class=" flex justify-center items-center ">
+          <div class="pt-5">
+            <div class="text-center font-semibold">
+              <h1 class="text-3xl">
+                <span class="text-blue-700 tracking-wide">Moje </span>
+                <span>pripreme za državnu maturu</span>
+              </h1>
+              <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
+                Uspješno savladajte gradivo neophodno za polaganje državne mature!
+              </p>
+            </div>
+            <div class="pt-5 flex flex-row">
+
+              <!-- StartUp Card -->
+              <div class="min-w-full p-6 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white">
+
+                <div>
+                  <h1 class="text-white font-semibold text-2xl">Kreiraj svoj plan!</h1>
+                  <p class="pt-2 tracking-wide">
+
+                    <span class="text-3xl font-semibold">0</span>
+                    <span class="text-gray-400 align-top">€</span>
+                    <span class="text-gray-400 font-medium">/ 0 školskih sati</span>
+                  </p>
+                </div>
+                <div v-if='selectedPriprema'>
+                  <div class=" bg-transparent ">
+                    <table
+                      class="w-full text-sm fixed bottom-0 z-40 left-0 text-left  text-gray-500 border bg-gray-50 box-shadow1 ">
+                      <thead class="text-xs text-gray-400 uppercase bg-gray-900 border w-full ">
+                        <tr>
+                          <th scope="col" class="px-6 text-lg py-2">
+                            {{ selectedPriprema.naslov }}
+                          </th>
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class=" bg-white border-b " v-for='program in selectedPriprema.programi'>
+                          <th scope=" row" class="px-6 py-2 text-lg font-medium text-gray-900 ">
+                            <img
+                              src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
+                              alt="" class="h-6 w-6 rounded-full ring-1 ring-primary/5 inline-block">
+                            <p class='inline-block mx-1'>{{ program.ime }}</p>
+                            <p class='text-gray-600 text-md'> {{ program.brojSati }}</p>
+                          </th>
+                          <td class="px-4 text-end py-2 text-nowrap text-lg">
+                            {{ program.cijena }} €
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <hr class="mt-4 border-1 border-gray-600">
+                <div class="pt-8">
+                  <p class="font-semibold cursor-pointer text-gray-400 text-left flex justify-between"
+                    @click='selectedPriprema = pripreme[0]'>
+                    <span class="material-icons align-middle">
+                      Matematika
+                    </span>
+                    <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
+                  </p>
+
+                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
+                    @click='selectedPriprema = pripreme[1]'>
+                    <span class="material-icons align-middle">
+                      Engleski
+                    </span>
+                    <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
+                  </p>
+                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
+                    @click='selectedPriprema = pripreme[2]'>
+                    <span class="material-icons align-middle">
+                      Hrvatski
+                    </span>
+                    <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
+                  </p>
+                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
+                    @click='selectedPriprema = pripreme[3]'>
+                    <span class="material-icons align-middle">
+                      Fizika
+                    </span>
+                    <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
+                  </p>
+                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
+                    @click='selectedPriprema = pripreme[4]'>
+                    <span class="material-icons align-middle">
+                      Kemija
+                    </span>
+                    <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
+                  </p>
+
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class='mt-3 grid justify-center'>
+          <div>
+            <RouterLink to="/matematika"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-lg px-5 py-1 font-bold">Matematika</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/engleski"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-lg px-5 py-1 font-bold">Engleski</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/hrvatski"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-lg px-5 py-1 font-bold">Hrvatski</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/hrvatski"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-lg px-5 py-1 font-bold">Fizika</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/kemija"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-lg px-5 py-1 font-bold">Kemija</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+        </div> -->
+
+        <!-- <div>
           <p class="text-2xl tracking-tight font-medium text-primary dark:text-white md:text-6xl">
             Pripreme za državnu maturu
           </p>
           <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400">
             Uspješno savladajte gradivo neophodno za polaganje državne mature!
           </p>
-        </div>
+        </div> -->
 
 
-        <div class="relative bg-transparent ">
+        <!-- <div class="relative bg-transparent ">
           <table class="w-full text-sm text-left mt-2 rtl:text-right text-gray-500 border bg-gray-50 box-shadow1 "
             v-for='priprema in pripreme'>
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 border w-full ">
@@ -140,7 +274,7 @@
 
             </tbody>
           </table>
-        </div>
+        </div> -->
 
         <!-- <div class='grid grid-cols-1 lg:grid-cols-2 gap-4 text-center mt-3'>
           <div class='border border-black shadow-sm rounded-md bg-sky-50  '
@@ -182,14 +316,51 @@
         </div> -->
       </div>
       <div
-        class="ring-1 ring-primary/5 flex flex-col justify-between items-center rounded-3xl shadow-xl p-[1px]  bg-white overflow-hidden text-center lg:text-left">
+        class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
+        <div class="w-full">
+          <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-7xl">
+            Ostale usluge
+          </p>
+        </div>
 
-
-        <iframe class='rounded-3xl'
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.0537294724686!2d14.43512127666443!3d45.32753747107204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a145207c24cd%3A0xd7bcff68c9f35013!2sParallel!5e0!3m2!1sen!2shr!4v1706194910244!5m2!1sen!2shr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade%22%3E%3C/iframe%3E"
-          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="async"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+        <div class='mt-3 '>
+          <div>
+            <RouterLink to="/pomocsseminarom"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-sm px-5 py-1 font-bold">Pomoć u pisanju seminara</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/natjecanja"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-sm px-5 py-1 font-bold">Priprema za natjecanja</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/organizacija"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-sm px-5 py-1 font-bold">Organizacija seminara</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </RouterLink>
+          </div>
+        </div>
       </div>
       <div
         class="ring-1 lg:row-start-3 items-center h-full flex p-6 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
@@ -341,40 +512,11 @@
 
 
       <div
-        class="ring-1 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90% dark:ring-white/10 ring-primary/5 flex flex-col p-4 h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-2 lg:row-start-4 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
-        <div>
-          <NuxtLink to='/seminari'
-            class="inline-flex  justify-between text-nowrap items-center py-4 px-1 pr-4 mb-3 text-sm text-gray-700 bg-white  shadow rounded-full   "
-            role="alert"> <span class="text-lg px-5 text-nowrap py-1 font-bold">Pomoć u pisanju seminara</span>
-            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                clip-rule="evenodd"></path>
-            </svg>
-          </NuxtLink>
-        </div>
-        <div>
-          <NuxtLink to='/natjecanja'
-            class="inline-flex  justify-between items-center py-4 px-1 pr-4 mb-3 text-sm text-gray-700 bg-white  shadow rounded-full   "
-            role="alert"> <span class="text-lg px-5 text-nowrap py-1 font-bold">Priprema za natjecanja</span>
-            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                clip-rule="evenodd"></path>
-            </svg>
-          </NuxtLink>
-        </div>
-        <div>
-          <NuxtLink to='/organizacija'
-            class="inline-flex  justify-between items-center py-4 px-1 pr-4 mb-3 text-sm text-gray-700 bg-white  shadow rounded-full   "
-            role="alert"> <span class="text-lg text-nowrap px-5 py-1 font-bold">Organizacija seminara</span>
-            <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd"
-                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                clip-rule="evenodd"></path>
-            </svg>
-          </NuxtLink>
-        </div>
+        class="ring-1 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90% dark:ring-white/10 ring-primary/5 flex flex-col p-[1px] h-full justify-center items-center rounded-3xl overflow-hidden relative lg:col-span-2 lg:row-start-4 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+        <iframe class='rounded-3xl'
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.0537294724686!2d14.43512127666443!3d45.32753747107204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4764a145207c24cd%3A0xd7bcff68c9f35013!2sParallel!5e0!3m2!1sen!2shr!4v1706194910244!5m2!1sen!2shr%22%20width=%22600%22%20height=%22450%22%20style=%22border:0;%22%20allowfullscreen=%22%22%20loading=%22lazy%22%20referrerpolicy=%22no-referrer-when-downgrade%22%3E%3C/iframe%3E"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="async"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div
         class="ring-1 dark:ring-white/10 ring-primary/5 shadow-xl dark:shadow-thick rounded-3xl p-8 lg:row-start-4 h-full flex flex-col justify-between bg-white dark:bg-secondary">
@@ -450,7 +592,7 @@
           <span class="text-sm font-medium text-gray-500 dark:text-gray-400">0%</span>
         </div>
 
-        <div class="md:grid md:grid-cols-2 gap-6 lg:grid-cols-1">
+        <div class="md:grid md:grid-cols-2 gap-2 lg:grid-cols-1">
           <div class="mt-4">
             <p class="text-sm text-pink-500 dark:text-pink-400">
               "Dijete je koristilo instrukcije iz hrvatskog jezika. Sve mu je lijepo objašnjeno. Jako smo zadovoljni."
@@ -470,7 +612,7 @@
       <div
         class="lg:col-span-2 bg-gradient-to-t from-indigo-100 from-10% via-sky-100 via-30% to-emerald-50 to-90% xl:col-span-1 h-full flex flex-col justify-between lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-secondary shadow-xl dark:shadow-thick rounded-3xl p-8">
         <span class="font-bold text-xl  uppercase">Svi Programi</span>
-        <div class='grid grid-cols-2 text-xs  p-5 rounded-xl'>
+        <div class='grid grid-cols-2 text-xs p-5 rounded-xl'>
           <div class='flex justify-start bg-white shadow rounded-lg p-2 m-1 overflow-hidden items-start'
             v-for='       item        in        programi       '>
 
@@ -514,51 +656,34 @@
     initTooltips();
   })
 
+  const selectedPriprema = ref()
 
   const pripreme = ref([
     {
       selectedProgram: null,
       naslov: "Matematika",
-      programi: [{
-        ime: "A razina",
-        brojSati: "70 školskih sati",
-        cijena: 390,
-        isActive: false,
-      },
-      {
-        ime: "B razina",
-        brojSati: "50 školskih sati",
-        cijena: 280,
-        isActive: false,
-      },
-      {
-        ime: "Ubrzani program - A razina",
-        brojSati: "35 školskih sati",
-        cijena: 200,
-        style: "col-span-2",
-        isActive: false,
-      }]
-    },
-    {
-      selectedProgram: null,
-      naslov: "Fizika",
       programi: [
         {
-          ime: "Fizika",
-          brojSati: "60 školskih sati",
-          cijena: 340,
+          ime: "Ubrzani program - A razina",
+          brojSati: "35 školskih sati",
+          cijena: 200,
           style: "col-span-2",
           isActive: false,
         },
         {
-          ime: "Ubrzani program - Fizika",
-          brojSati: "30 školskih sati",
-          cijena: 180,
-          style: "col-span-2",
+          ime: "A razina",
+          brojSati: "70 školskih sati",
+          cijena: 390,
           isActive: false,
         },
-      ]
+        {
+          ime: "B razina",
+          brojSati: "50 školskih sati",
+          cijena: 280,
+          isActive: false,
+        }]
     },
+
     {
       selectedProgram: null,
       naslov: "Engleski",
@@ -592,15 +717,29 @@
     },
     {
       selectedProgram: null,
-      naslov: "Kemija",
+      naslov: "Fizika",
       programi: [
         {
-          ime: "Kemija",
+          ime: "Ubrzani program - Fizika",
+          brojSati: "30 školskih sati",
+          cijena: 180,
+          style: "col-span-2",
+          isActive: false,
+        },
+        {
+          ime: "Fizika",
           brojSati: "60 školskih sati",
           cijena: 340,
           style: "col-span-2",
           isActive: false,
-        },
+        }
+
+      ]
+    },
+    {
+      selectedProgram: null,
+      naslov: "Kemija",
+      programi: [
         {
           ime: "Ubrzani program - Kemija",
           brojSati: "30 školskih sati",
@@ -608,6 +747,13 @@
           style: "col-span-2",
           isActive: false,
         },
+        {
+          ime: "Kemija",
+          brojSati: "60 školskih sati",
+          cijena: 340,
+          style: "col-span-2",
+          isActive: false,
+        }
       ]
     },
   ])
