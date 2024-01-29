@@ -19,7 +19,7 @@
           <div class="text-lg leading-6">
             <p class="font-semibold text-3xl text-primary ">
               <NuxtLink to="/onama"> <span class="absolute inset-0"></span>
-                <h1>Mi smo Poduke Parallel</h1>
+                <h1>Poduke Parallel</h1>
               </NuxtLink>
             </p>
 
@@ -763,9 +763,9 @@
 
 
   useHead({
-    title: 'My App',
+    title: 'Poduke Parallel',
     meta: [
-      { name: 'description', content: 'My amazing site.' }
+      { name: 'description', content: 'Učenje bez muke, uz Parallel poduke!' }
     ],
     bodyAttrs: {
       class: 'test'
@@ -774,11 +774,11 @@
   })
 
   useSeoMeta({
-    title: 'My Amazing Site',
-    ogTitle: 'My Amazing Site',
-    description: 'This is my amazing site, let me tell you all about it.',
-    ogDescription: 'This is my amazing site, let me tell you all about it.',
-    ogImage: 'https://example.com/image.png',
+    title: 'Poduke Parallel',
+    ogTitle: 'Poduke Parallel',
+    description: 'Učenje bez muke, uz Parallel poduke!',
+    ogDescription: 'Učenje bez muke, uz Parallel poduke!',
+    ogImage: 'https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=bxA5Hh4T6ckAX88V2Gs&_nc_ht=scontent.fzag3-1.fna&oh=00_AfARCAqb2ZR2XX9J9MuI7ssMLAWAP-QfWNL0bCGxH56x4Q&oe=65BDCC55',
     twitterCard: 'summary_large_image',
   })
 
