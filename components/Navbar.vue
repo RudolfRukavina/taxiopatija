@@ -4,28 +4,28 @@
     <div class="max-w-screen-xl px-4 py-3 mx-auto">
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
-          <li>
+          <li class='text-nowrap'>
             <a href="#" class="text-gray-900 dark:text-white hover:underline text-nowrap"
               aria-current="page">Naslovnica</a>
           </li>
-          <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline text-nowrap">Instrukcije</a>
+          <li class='text-nowrap'>
+            <a href="#" class="text-gray-900 dark:text-white hover:underline">Instrukcije</a>
           </li>
 
-          <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline text-nowrap">Moje pripreme</a>
+          <li class='text-nowrap'>
+            <a href="#" class="text-gray-900 dark:text-white hover:underline">Moje pripreme</a>
           </li>
-          <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline text-nowrap">Ostale usluge</a>
+          <li class='text-nowrap'>
+            <a href="#" class="text-gray-900 dark:text-white hover:underline">Ostale usluge</a>
           </li>
-          <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline v">Kontakt</a>
+          <li class='text-nowrap'>
+            <a href="#" class="text-gray-900 dark:text-white hover:underline">Kontakt</a>
           </li>
-          <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline text-nowrap">Iskustva</a>
+          <li class='text-nowrap'>
+            <a href="#" class="text-gray-900 dark:text-white hover:underline">Iskustva</a>
           </li>
-          <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline text-nowrap">Svi programi</a>
+          <li class='text-nowrap'>
+            <a href="#" class="text-gray-900 dark:text-white hover:underline">Svi programi</a>
           </li>
         </ul>
       </div>
