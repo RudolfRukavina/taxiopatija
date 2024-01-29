@@ -9,10 +9,6 @@ module.exports = {
   ],
 theme: {
     extend: {
-        fontFamily: {
-             heading: ['Gluten', 'sans-serif'],
-             body: ['Gluten', 'sans-serif']
-        }
     }
 },
   plugins: [
