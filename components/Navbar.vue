@@ -19,35 +19,35 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="mojepripreme" class="link-item">
+            <NuxtLink to="/mojepripreme" class="link-item">
               <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
                 Moje pripreme
               </div>
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="ostaleusluge" class="link-item">
+            <NuxtLink to="/ostaleusluge" class="link-item">
               <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
                 Ostale usluge
               </div>
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="kontakt" class="link-item">
+            <NuxtLink to="/kontakt" class="link-item">
               <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
                 Kontakt
               </div>
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="iskustva" class="link-item">
+            <NuxtLink to="/iskustva" class="link-item">
               <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
                 Iskustva
               </div>
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="programi" class="link-item">
+            <NuxtLink to="/programi" class="link-item">
               <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
                 Svi programi
               </div>

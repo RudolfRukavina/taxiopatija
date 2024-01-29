@@ -8,9 +8,12 @@
             src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
             alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
           <div class="text-lg leading-6">
-            <p class="font-semibold text-3xl text-primary "> <a href="#"> <span class="absolute inset-0"></span>
+            <p class="font-semibold text-3xl text-primary ">
+              <NuxtLink to="/onama"> <span class="absolute inset-0"></span>
                 Poduke Parallel
-              </a> </p>
+              </NuxtLink>
+            </p>
+
             <p class="text-zinc-500 dark:text-zinc-400">
               O nama
             </p>
@@ -22,7 +25,6 @@
         <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
           Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
           <br> <br>
-
         </p>
       </div>
 
@@ -46,7 +48,7 @@
 
         <div class='pt-10 lg:pt-0'>
           <div>
-            <RouterLink to="/osnovna"
+            <RouterLink to="/instrukcije/osnovna"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-md px-5 py-1 font-bold">Osnovna škola</span>
@@ -58,7 +60,7 @@
             </RouterLink>
           </div>
           <div>
-            <RouterLink to="/srednja"
+            <RouterLink to="/instrukcije/srednja"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-md px-5 py-1 font-bold">Srednja škola</span>
@@ -70,7 +72,7 @@
             </RouterLink>
           </div>
           <div>
-            <RouterLink to="/fakultet"
+            <RouterLink to="/instrukcije/fakultet"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-md px-5 py-1 font-bold">Fakultet</span>
@@ -100,7 +102,7 @@
             </p>
           </div>
         </div>
-        <div class=" flex justify-center items-center ">
+        <NuxtLink to="/mojepripreme" class=" flex justify-center items-center ">
 
           <div class="pt-5">
             <div class="text-center font-semibold">
@@ -112,7 +114,7 @@
                 Uspješno savladajte gradivo neophodno za polaganje državne mature!
               </p>
             </div>
-            <div class="pt-5 flex flex-row">
+            <div class="pt-5 flex flex-row blur-[0.5px]">
 
               <!-- StartUp Card -->
               <NuxtLink to='/mojepripreme'
@@ -173,7 +175,7 @@
 
             </div>
           </div>
-        </div>
+        </NuxtLink>
         <!-- <div class='mt-3 grid justify-center'>
           <div>
             <RouterLink to="/matematika"
@@ -345,7 +347,7 @@
             <!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/273039287_116521870925415_4001426306569107080_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=JgVIpJO3LAcAX-R8R_9&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCJJsXF6oC7rCNgFBWWF0mcr36oUpdn-UnQpnijjL3mJQ&oe=65BBEC07"
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=bxA5Hh4T6ckAX88V2Gs&_nc_ht=scontent.fzag3-1.fna&oh=00_AfARCAqb2ZR2XX9J9MuI7ssMLAWAP-QfWNL0bCGxH56x4Q&oe=65BDCC55"
                 class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
             </div>
           </div>
@@ -400,7 +402,7 @@
             alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
           <div class="text-lg leading-6">
             <p class="font-semibold text-3xl text-primary ">
-              <NuxtLink to="/instrukcije"> <span class="absolute inset-0"></span>
+              <NuxtLink to="/ostaleusluge"> <span class="absolute inset-0"></span>
                 Ostale usluge
               </NuxtLink>
             </p>
@@ -412,7 +414,7 @@
 
         <div class='mt-3 '>
           <div>
-            <RouterLink to="/pomocsseminarom"
+            <NuxtLink to="/usluge/seminar"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-sm px-5 py-1 font-bold">Pomoć u pisanju seminara</span>
@@ -421,10 +423,10 @@
                   d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-            </RouterLink>
+            </NuxtLink>
           </div>
           <div>
-            <RouterLink to="/natjecanja"
+            <RouterLink to="/usluge/natjecanja"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-sm px-5 py-1 font-bold">Priprema za natjecanja</span>
@@ -436,7 +438,7 @@
             </RouterLink>
           </div>
           <div>
-            <RouterLink to="/organizacija"
+            <RouterLink to="/usluge/organizacija"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-sm px-5 py-1 font-bold">Organizacija seminara</span>
