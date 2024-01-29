@@ -19,6 +19,7 @@
     "@nuxtjs/google-fonts": "^3.1.3",
     "flowbite": "^2.2.1",
     "keen-slider": "^6.8.6",
-    "nuxt-swiper": "^1.2.2"
+    "nuxt-swiper": "^1.2.2",
+    "preline": "^2.0.3"
   }
 }

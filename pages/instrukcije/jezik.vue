@@ -41,7 +41,8 @@
           <tbody>
             <tr v-for='item in jezici'
               class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-              <th scope="row" class="px-6 py-1 text-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
+              <th scope="row"
+                class="px-6 py-1 text-lg text-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 {{ item.title }}
               </th>
             </tr>
@@ -60,7 +61,8 @@
           </thead>
         </table>
       </div>
-
+      <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete 20 i više sati
+        tečaja stranog jezika odobravamo <span class='font-bold text-base'>20% popusta</span>.</li>
     </div>
   </div>
 </template>

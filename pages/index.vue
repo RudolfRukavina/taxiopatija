@@ -142,7 +142,9 @@
                     <span class="text-gray-400 align-top">€</span>
                     <span class="text-gray-400 font-medium">/ 0 školskih sati</span>
                   </p>
-
+                  <p class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Primjenjeno
+                    <span class='font-bold'>0% popusta </span>.
+                  </p>
                 </div>
 
                 <hr class="mt-4 border-1 border-gray-600">
@@ -329,12 +331,10 @@
         <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base underline">Moguće je obročno
           plaćanje paketa
           priprema za državnu maturu.</li>
-        <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
-          državnu maturu iz dva predmeta odobravamo <span class='text-bold'> 10% popusta</span>.</li>
-        <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
-          državnu maturu iz tri ili više predmeta odobravamo <span class='text-bold'> 20% popusta</span>.</li>
-        <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete 20 i više sati
-          tečaja stranog jezika odobravamo 20% popusta.</li>
+        <li class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
+          državnu maturu iz dva predmeta odobravamo <span class='font-bold'> 10% popusta</span>.</li>
+        <li class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
+          državnu maturu iz tri ili više predmeta odobravamo <span class='font-bold lg:text-lg'> 20% popusta</span>.</li>
       </div>
       <div
         class="ring-1 lg:row-start-2 lg:row-span-1 items-center h-full flex p-3 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
@@ -581,7 +581,7 @@
 
                 <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Telefon</h2>
                 <p class="mt-2 text-gray-500 dark:text-gray-400">Nazovite nas!</p>
-                <p class="mt-2 text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                <a href="tel:+385917865619" class="mt-2 text-blue-500 dark:text-blue-400">+385917865619</a>
               </div>
             </div>
           </div>
@@ -751,6 +751,8 @@
     initTabs,
     initTooltips
   } from 'flowbite'
+
+
 
   // initialize components based on data attribute selectors
   onMounted(() => {

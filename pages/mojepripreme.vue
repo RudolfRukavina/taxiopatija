@@ -62,9 +62,12 @@
             <hr class="mt-4 border-1 border-gray-600">
             <p class="pt-2 tracking-wide">
 
-              <span class="text-3xl font-semibold">{{ totalAmount }}</span>
+              <span class="text-3xl font-semibold">{{ discountedTotalAmount }}</span>
               <span class="text-gray-400 align-top">€</span>
               <span class="text-gray-400 font-medium">/ {{ totalHoursAmount }} školskih sati</span>
+            </p>
+            <p class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Primjenjeno
+              <span class='font-bold'>{{ discountPercentage * 100 }}% popusta </span>.
             </p>
 
           </div>
@@ -155,6 +158,13 @@
 
       </div>
     </div>
+    <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base underline">Moguće je obročno
+      plaćanje paketa
+      priprema za državnu maturu.</li>
+    <li class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
+      državnu maturu iz dva predmeta odobravamo <span class='font-bold'> 10% popusta</span>.</li>
+    <li class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
+      državnu maturu iz tri ili više predmeta odobravamo <span class='font-bold lg:text-lg'> 20% popusta</span>.</li>
   </div>
 </template>
 
@@ -195,7 +205,20 @@
   });
 
 
+  const discountPercentage = computed(() => {
+    const selectedCount = kosarica.value.length;
+    if (selectedCount === 2) {
+      return 0.1; // 10% discount for 2 selected items
+    } else if (selectedCount >= 3) {
+      return 0.2; // 20% discount for 3 or more selected items
+    }
+    return 0; // No discount if less than 2 selected items
+  });
 
+  const discountedTotalAmount = computed(() => {
+    const total = totalAmount.value;
+    return total - (total * discountPercentage.value);
+  });
 
   const pripreme = ref([
     {

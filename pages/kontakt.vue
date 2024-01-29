@@ -50,7 +50,7 @@
 
             <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Telefon</h2>
             <p class="mt-2 text-gray-500 dark:text-gray-400">Nazovite nas!</p>
-            <a href="tel:+385917865619" class="mt-2 text-blue-500 dark:text-blue-400">+1 (555) 000-0000</a>
+            <a href="tel:+385917865619" class="mt-2 text-blue-500 dark:text-blue-400">+385917865619</a>
           </div>
         </div>
       </div>
