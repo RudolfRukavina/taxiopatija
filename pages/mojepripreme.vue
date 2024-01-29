@@ -36,32 +36,54 @@
 
           <div>
             <h1 class="text-white font-semibold text-2xl">Kreiraj svoj plan!</h1>
+            <div v-for='item in kosarica'>
+              <hr class="mt-4 border-1 border-gray-600">
+              <div class="px-6 py-2 text-lg font-medium text-white  bg-green-100 rounded-xl relative">
+                <div class='absolute top-0 right-0 bg-red-500 p-2 px-4 rounded-bl-lg' @click='removeFromCart(item)'> <i
+                    class="fa fa-ban"></i></div>
+                <img
+                  src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
+                  alt="" class="h-7 w-7 rounded-full ring-1 ring-primary/5 inline-block">
+                <p class=' text-2xl text-black mx-1'>{{ item.naslov }}</p>
+                <p class=' mt-2 text-gray-800 text-sm'>{{ item.fast }}</p>
+                <p class='text-gray-700 text-md'> {{ item.brojSati }}</p>
+                <p class='text-black text-md'> {{ item.cijena }} €</p>
+              </div>
+            </div>
+            <hr class="mt-4 border-1 border-gray-600">
             <p class="pt-2 tracking-wide">
 
-              <span class="text-3xl font-semibold">0</span>
+              <span class="text-3xl font-semibold">{{ totalAmount }}</span>
               <span class="text-gray-400 align-top">€</span>
-              <span class="text-gray-400 font-medium">/ 0 školskih sati</span>
+              <span class="text-gray-400 font-medium">/ {{ totalHoursAmount }} školskih sati</span>
             </p>
+
           </div>
           <div v-if='selectedPriprema'>
             <div class=" bg-transparent ">
               <table
                 class="w-full text-sm fixed bottom-0 z-40 left-0 text-left  text-gray-500 border bg-gray-50 box-shadow1 ">
-                <thead class="text-xs text-gray-400 uppercase bg-gray-900 border w-full ">
+                <thead class="text-xs text-gray-400 uppercase bg-gray-900 border w-full">
                   <tr>
-                    <th scope="col" class="px-6 text-lg py-2">
+                    <th scope="col" class="px-6 text-lg py-2 w-3/4">
                       {{ selectedPriprema.naslov }}
                     </th>
+                    <div @click='selectedPriprema = null'
+                      class='bg-red-500 cursor-pointer text-2xl flex justify-center items-center p-3 text-gray-100 rounded-sm m-1'>
+                      <i class="fa fa-ban"></i>
+                    </div>
 
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class=" bg-white border-b " v-for='program in selectedPriprema.programi'>
+                  <tr class=" bg-white border-b cursor-pointer hover:bg-green-100"
+                    v-for='(program, index) in selectedPriprema.programi' @click='addToCart(program, index)'>
                     <th scope=" row" class="px-6 py-2 text-lg font-medium text-gray-900 ">
                       <img
                         src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
                         alt="" class="h-6 w-6 rounded-full ring-1 ring-primary/5 inline-block">
                       <p class='inline-block mx-1'>{{ program.ime }}</p>
+                      <p class='inline-block mx-1'>{{ program.fast }}</p>
                       <p class='text-gray-600 text-md'> {{ program.brojSati }}</p>
                     </th>
                     <td class="px-4 text-end py-2 text-nowrap text-lg">
@@ -71,12 +93,13 @@
 
                 </tbody>
               </table>
+
             </div>
           </div>
           <hr class="mt-4 border-1 border-gray-600">
           <div class="pt-8">
             <p class="font-semibold cursor-pointer text-gray-400 text-left flex justify-between"
-              @click='selectedPriprema = pripreme[0]'>
+              v-if='!kosarica.some(item => item.naslov === "Matematika")' @click='selectedPriprema = pripreme[0]'>
               <span class="material-icons align-middle">
                 Matematika
               </span>
@@ -84,28 +107,28 @@
             </p>
 
             <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-              @click='selectedPriprema = pripreme[1]'>
+              v-if='!kosarica.some(item => item.naslov === "Engleski")' @click='selectedPriprema = pripreme[1]'>
               <span class="material-icons align-middle">
                 Engleski
               </span>
               <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-              @click='selectedPriprema = pripreme[2]'>
+              v-if='!kosarica.some(item => item.naslov === "Hrvatski")' @click='selectedPriprema = pripreme[2]'>
               <span class="material-icons align-middle">
                 Hrvatski
               </span>
               <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-              @click='selectedPriprema = pripreme[3]'>
+              v-if='!kosarica.some(item => item.naslov === "Fizika")' @click='selectedPriprema = pripreme[3]'>
               <span class="material-icons align-middle">
                 Fizika
               </span>
               <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
             </p>
             <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-              @click='selectedPriprema = pripreme[4]'>
+              v-if='!kosarica.some(item => item.naslov === "Kemija")' @click='selectedPriprema = pripreme[4]'>
               <span class="material-icons align-middle">
                 Kemija
               </span>
@@ -125,6 +148,41 @@
 <script setup>
   import { ref } from "vue"
   const selectedPriprema = ref()
+  const kosarica = ref([])
+  const addToCart = (program, index) => {
+    const existingItem = kosarica.value.find(item => item.naslov === program.naslov);
+
+    if (existingItem) {
+      // Item already in the cart, update quantity or handle as needed
+      // For simplicity, let's assume you can't add the same item twice
+      console.log("Item already in the cart!");
+    } else {
+      // Add the new item to the cart
+      kosarica.value.push({ ...program, quantity: 1 });
+    }
+
+    selectedPriprema.value = null;
+  };
+
+
+  const removeFromCart = (itemToRemove) => {
+    const index = kosarica.value.findIndex(item => item.naslov === itemToRemove.naslov);
+    if (index !== -1) {
+      kosarica.value.splice(index, 1);
+    }
+  };
+
+
+  const totalAmount = computed(() => {
+    return kosarica.value.reduce((total, item) => total + item.cijena * item.quantity, 0);
+  });
+
+  const totalHoursAmount = computed(() => {
+    return kosarica.value.reduce((total, item) => total + parseInt(item.brojSati), 0);
+  });
+
+
+
 
   const pripreme = ref([
     {
@@ -132,19 +190,23 @@
       naslov: "Matematika",
       programi: [
         {
-          ime: "Ubrzani program - A razina",
+          naslov: "Matematika",
+          ime: "A razina",
+          fast: "Ubrzani program",
           brojSati: "35 školskih sati",
           cijena: 200,
           style: "col-span-2",
           isActive: false,
         },
         {
+          naslov: "Matematika",
           ime: "A razina",
           brojSati: "70 školskih sati",
           cijena: 390,
           isActive: false,
         },
         {
+          naslov: "Matematika",
           ime: "B razina",
           brojSati: "50 školskih sati",
           cijena: 280,
@@ -157,12 +219,14 @@
       naslov: "Engleski",
       programi: [
         {
+          naslov: "Engleski",
           ime: "A razina",
           brojSati: "40 školskih sati",
           cijena: 240,
           isActive: false,
         },
         {
+          naslov: "Engleski",
           ime: "B razina",
           brojSati: "30 školskih sati",
           cijena: 180,
@@ -175,6 +239,7 @@
       naslov: "Hrvatski",
       programi: [
         {
+          naslov: "Hrvatski",
           ime: "Hrvatski",
           brojSati: "60 školskih sati",
           cijena: 340,
@@ -188,13 +253,16 @@
       naslov: "Fizika",
       programi: [
         {
-          ime: "Ubrzani program - Fizika",
+          naslov: "Fizika",
+          ime: "Fizika",
+          fast: "Ubrzani program",
           brojSati: "30 školskih sati",
           cijena: 180,
           style: "col-span-2",
           isActive: false,
         },
         {
+          naslov: "Fizika",
           ime: "Fizika",
           brojSati: "60 školskih sati",
           cijena: 340,
@@ -209,13 +277,16 @@
       naslov: "Kemija",
       programi: [
         {
-          ime: "Ubrzani program - Kemija",
+          naslov: "Kemija",
+          ime: "Kemija",
+          fast: "Ubrzani program",
           brojSati: "30 školskih sati",
           cijena: 180,
           style: "col-span-2",
           isActive: false,
         },
         {
+          naslov: "Kemija",
           ime: "Kemija",
           brojSati: "60 školskih sati",
           cijena: 340,

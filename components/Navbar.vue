@@ -1,5 +1,5 @@
 <template>
-  <nav id="navbar"
+  <nav id="navbar" ref='navbarRef'
     class="bg-gradient-to-t from-indigo-100 from-10% via-sky-50 via-30% to-emerald-50 to-90% flex shadow-2xl overflow-x-scroll">
     <div class="px-4 mx-auto">
       <div class="flex items-center">
@@ -61,8 +61,6 @@
 
 <script setup></script>
 
-<style scoped></style>
-
 <style scoped>
 .router-link-exact-active .link-content {
   color: rgb(28, 28, 28);
@@ -72,3 +70,4 @@
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
 </style>
+
