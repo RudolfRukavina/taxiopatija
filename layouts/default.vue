@@ -29,7 +29,7 @@
       <div
         class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
         <div class="max-w-full">
-          <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-7xl">
+          <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-6xl">
             Instrukcije
           </p>
         </div>
@@ -318,7 +318,7 @@
       <div
         class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
         <div class="w-full">
-          <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-7xl">
+          <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-6xl">
             Ostale usluge
           </p>
         </div>
@@ -449,7 +449,7 @@
             <div class="text-center">
               <p class="font-medium text-blue-500 dark:text-blue-400">Kontakt</p>
 
-              <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Kontaktirajte nas!</h1>
+              <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Upiši se!</h1>
 
               <p class="mt-3 text-gray-500 dark:text-gray-400">Za bilo kakva pitanja ili usluge, slobodno nas
                 kontaktirajte nas na broj telefona ili e-mail.</p>

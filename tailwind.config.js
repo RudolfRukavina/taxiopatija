@@ -7,9 +7,14 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "./node_modules/flowbite/**/*.{js,ts}"
   ],
-  theme: {
-    extend: {},
-  },
+theme: {
+    extend: {
+        fontFamily: {
+             heading: ['Gluten', 'sans-serif'],
+             body: ['Gluten', 'sans-serif']
+        }
+    }
+},
   plugins: [
     require('flowbite/plugin')
   ],
