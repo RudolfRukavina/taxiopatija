@@ -1,5 +1,7 @@
 <template>
+  <Navbar></Navbar>
   <div class="p-4 bg-gradient-to-b from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 to-90%">
+
     <div class="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-4 ">
       <div
         class="lg:row-span-2 ring-1  ring-primary/5 bg-white  shadow-xl  rounded-3xl p-8 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90%">
@@ -622,6 +624,58 @@
       </div>
     </div>
   </div>
+  <footer class="footer-bg my-[3px]">
+    <div class="mx-auto w-full max-w-screen-xl px-4 pb-3 lg:pb-6">
+
+      <!-- <div class="md:flex md:justify-between">
+
+        <div class="mb-6 md:mb-0">
+          <a href="" class="flex items-center">
+            <img src="../assets/parallelicon.png" class="h-8 me-3" alt="" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap ">Poduke Parallel</span>
+          </a>
+        </div>
+        <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+          <span class="font-bold text-xl  uppercase">Svi Programi</span>
+          <div class='grid grid-cols-2 text-xs  p-5 rounded-xl'>
+            <div class='flex justify-start border rounded-lg p-2 m-1 overflow-hidden items-start'
+              v-for='item in programi'>
+
+              <p class=''>{{ item }}</p>
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+      <hr class=" py-2 border-gray-200 w-full " />
+      <div class=" grid-cols-2 flex justify-evenly gap-8 sm:gap-6 sm:grid-cols-3">
+
+        <div>
+          <ul class="text-gray-500 font-medium">
+            <li class="">
+              <a href="https://www.facebook.com/poduke.parallel" class="hover:underline ">Politika Privatnosti</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="text-gray-500  font-medium">
+            <li class=''>
+              <a href="#" class="hover:underline">Uvjeti korištenja</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4 border-gray-200 sm:mx-auto  lg:my-6" />
+      <div class=" items-center text-center justify-center">
+        <span class="text-sm text-gray-500 sm:text-center ">© 2024 <a href="/" class="hover:underline">Parallel d.o.o.</a>
+          Sva prava zadržana.
+
+        </span>
+      </div>
+
+    </div>
+  </footer>
 </template>
 
 <script setup>
