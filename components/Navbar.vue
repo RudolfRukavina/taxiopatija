@@ -61,9 +61,17 @@
     <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
       <div class="relative sm:flex sm:items-center">
         <div class="flex items-center justify-between">
-          <NuxtLink to='/' class="flex-none text-xl font-semibold dark:text-white"> <img
+          <NuxtLink to='/' class="flex items-center text-nowrap whitespace-nowrap text-xl font-semibold dark:text-white">
+            <img
               src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-              alt="" class="h-9 w-9 rounded-full shadow-xl ring-1 ring-primary/5"></NuxtLink>
+              alt="" class="h-9 w-9 rounded-full shadow-xl inline-block me-3 ring-1 ring-primary/5">
+            <div class="text-lg leading-6 inline-block items-center">
+              <p class="font-medium text-3xl text-primary  ">
+                Poduke Parallel
+              </p>
+
+            </div>
+          </NuxtLink>
           <div class="sm:hidden">
 
             <button type="button"
@@ -195,7 +203,6 @@
 .router-link-exact-active {
   color: rgb(28, 28, 28);
   font-weight: 600;
-  text-decoration: underline;
 }
 </style>
 
