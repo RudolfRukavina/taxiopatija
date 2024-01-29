@@ -22,19 +22,38 @@
         <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
           Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
           <br> <br>
-          Mi smo tim 4 studenta...
+          "Mi smo četiri studenta i entuzijasta iz Rijeke. Znanje stečeno na fakultetu omogućilo nam je da se bavimo
+          instrukcijama iz raznih područja. Iskustvo i znanje koje smo tim putem stekli potaknulo nas je da proširimo
+          svoju djelatnost te olakšamo učenje većem broju učenika i studenata. Tako smo došli na ideju da otvorimo
+          vlastitu školu za poduke. Odlučili smo ozbiljno pristupiti ideji te uložiti puno truda i vremena kako bi
+          realizirali naš projekt. S vremenom, kao učenici i studenti, upoznali smo se s obrazovnim sustavom i njegovim
+          nedostatcima pa ovim putem želimo ponuditi pomoć svima onima koji nailaze na razne prepreke, na kakve smo i sami
+          nailazili prilikom obrazovnog procesa. Baš zato što smo mladi i osvješteni vjerujemo da možemo prenositi znanje
+          na jednostavan i zanimljiv način.
+
+          Škola Parallel počela je s radom u Rijeci 1. veljače 2022. godine."
         </p>
       </div>
 
       <div
         class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
-        <div class="max-w-full">
-          <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-6xl">
-            Instrukcije
-          </p>
+        <div class="relative flex items-center gap-x-4">
+          <img
+            src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
+            alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
+          <div class="text-lg leading-6">
+            <p class="font-semibold text-3xl text-primary ">
+              <NuxtLink to="/instrukcije"> <span class="absolute inset-0"></span>
+                Poduke Parallel
+              </NuxtLink>
+            </p>
+            <p class="text-zinc-500 dark:text-zinc-400">
+              Instrukcije
+            </p>
+          </div>
         </div>
 
-        <div class='mt-3 '>
+        <div class='pt-10 lg:pt-0'>
           <div>
             <RouterLink to="/osnovna"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
@@ -74,8 +93,24 @@
         </div>
       </div>
       <div
-        class="ring-1 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90% lg:row-span-2 flex flex-col group hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 lg:row-start-2 md:grid-cols-2 md:grid lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+        class="ring-1 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90% lg:row-span-2 flex flex-col group hover:ring-primary/10 dark:hover:ring-white/20 duration-300 h-full dark:ring-white/10 ring-primary/5 lg:row-start-2 md:grid-cols-2 lg:gap-0 md:items-center md:gap-12 lg:grid-cols-none lg:col-start-2 lg:col-span-2 rounded-3xl p-8 bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+        <div class="relative flex items-center gap-x-4">
+          <img
+            src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
+            alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
+          <div class="text-lg leading-6">
+            <p class="font-semibold text-3xl text-primary ">
+              <NuxtLink to="/mojepripreme"> <span class="absolute inset-0"></span>
+                Poduke Parallel
+              </NuxtLink>
+            </p>
+            <p class="text-zinc-500 dark:text-zinc-400">
+              Pripreme za državnu maturu
+            </p>
+          </div>
+        </div>
         <div class=" flex justify-center items-center ">
+
           <div class="pt-5">
             <div class="text-center font-semibold">
               <h1 class="text-3xl">
@@ -89,80 +124,51 @@
             <div class="pt-5 flex flex-row">
 
               <!-- StartUp Card -->
-              <div class="min-w-full p-6 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white">
+              <NuxtLink to='/mojepripreme'
+                class="min-w-full p-6 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white">
 
                 <div>
                   <h1 class="text-white font-semibold text-2xl">Kreiraj svoj plan!</h1>
+
+                  <hr class="mt-4 border-1 border-gray-600">
                   <p class="pt-2 tracking-wide">
 
                     <span class="text-3xl font-semibold">0</span>
                     <span class="text-gray-400 align-top">€</span>
                     <span class="text-gray-400 font-medium">/ 0 školskih sati</span>
                   </p>
-                </div>
-                <div v-if='selectedPriprema'>
-                  <div class=" bg-transparent ">
-                    <table
-                      class="w-full text-sm fixed bottom-0 z-40 left-0 text-left  text-gray-500 border bg-gray-50 box-shadow1 ">
-                      <thead class="text-xs text-gray-400 uppercase bg-gray-900 border w-full ">
-                        <tr>
-                          <th scope="col" class="px-6 text-lg py-2">
-                            {{ selectedPriprema.naslov }}
-                          </th>
 
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr class=" bg-white border-b " v-for='program in selectedPriprema.programi'>
-                          <th scope=" row" class="px-6 py-2 text-lg font-medium text-gray-900 ">
-                            <img
-                              src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-                              alt="" class="h-6 w-6 rounded-full ring-1 ring-primary/5 inline-block">
-                            <p class='inline-block mx-1'>{{ program.ime }}</p>
-                            <p class='text-gray-600 text-md'> {{ program.brojSati }}</p>
-                          </th>
-                          <td class="px-4 text-end py-2 text-nowrap text-lg">
-                            {{ program.cijena }} €
-                          </td>
-                        </tr>
-
-                      </tbody>
-                    </table>
-                  </div>
                 </div>
+
                 <hr class="mt-4 border-1 border-gray-600">
-                <div class="pt-8">
-                  <p class="font-semibold cursor-pointer text-gray-400 text-left flex justify-between"
-                    @click='selectedPriprema = pripreme[0]'>
+
+                <div class="mt-5">
+                  <p class="font-semibold cursor-pointer text-gray-400 text-left flex justify-between py-2">
                     <span class="material-icons align-middle">
                       Matematika
                     </span>
                     <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
                   </p>
 
-                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-                    @click='selectedPriprema = pripreme[1]'>
+                  <p class="font-semibold text-gray-400 text-left  flex justify-between cursor-pointer py-2">
                     <span class="material-icons align-middle">
                       Engleski
                     </span>
                     <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
                   </p>
-                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-                    @click='selectedPriprema = pripreme[2]'>
+                  <p class="font-semibold text-gray-400 text-left  flex justify-between cursor-pointer py-2">
                     <span class="material-icons align-middle">
                       Hrvatski
                     </span>
                     <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
                   </p>
-                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-                    @click='selectedPriprema = pripreme[3]'>
+                  <p class="font-semibold text-gray-400 text-left  flex justify-between cursor-pointer py-2">
                     <span class="material-icons align-middle">
                       Fizika
                     </span>
                     <button class=' text-lg font-bold'><i class="fa fa-plus"></i></button>
                   </p>
-                  <p class="font-semibold text-gray-400 text-left pt-5 flex justify-between"
-                    @click='selectedPriprema = pripreme[4]'>
+                  <p class="font-semibold text-gray-400 text-left flex justify-between cursor-pointer py-2">
                     <span class="material-icons align-middle">
                       Kemija
                     </span>
@@ -171,7 +177,7 @@
 
 
                 </div>
-              </div>
+              </NuxtLink>
 
 
             </div>
@@ -317,10 +323,20 @@
       </div>
       <div
         class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
-        <div class="w-full">
-          <p class="text-4xl font-normal tracking-tight text-primary dark:text-white lg:text-6xl">
-            Ostale usluge
-          </p>
+        <div class="relative flex items-center gap-x-4">
+          <img
+            src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
+            alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
+          <div class="text-lg leading-6">
+            <p class="font-semibold text-3xl text-primary ">
+              <NuxtLink to="/instrukcije"> <span class="absolute inset-0"></span>
+                Ostale usluge
+              </NuxtLink>
+            </p>
+            <p class="text-zinc-500 dark:text-zinc-400">
+              Poduke Parallel
+            </p>
+          </div>
         </div>
 
         <div class='mt-3 '>
@@ -656,107 +672,6 @@
     initTooltips();
   })
 
-  const selectedPriprema = ref()
-
-  const pripreme = ref([
-    {
-      selectedProgram: null,
-      naslov: "Matematika",
-      programi: [
-        {
-          ime: "Ubrzani program - A razina",
-          brojSati: "35 školskih sati",
-          cijena: 200,
-          style: "col-span-2",
-          isActive: false,
-        },
-        {
-          ime: "A razina",
-          brojSati: "70 školskih sati",
-          cijena: 390,
-          isActive: false,
-        },
-        {
-          ime: "B razina",
-          brojSati: "50 školskih sati",
-          cijena: 280,
-          isActive: false,
-        }]
-    },
-
-    {
-      selectedProgram: null,
-      naslov: "Engleski",
-      programi: [
-        {
-          ime: "A razina",
-          brojSati: "40 školskih sati",
-          cijena: 240,
-          isActive: false,
-        },
-        {
-          ime: "B razina",
-          brojSati: "30 školskih sati",
-          cijena: 180,
-          isActive: false,
-        },
-      ]
-    },
-    {
-      selectedProgram: null,
-      naslov: "Hrvatski",
-      programi: [
-        {
-          ime: "Hrvatski",
-          brojSati: "60 školskih sati",
-          cijena: 340,
-          style: "col-span-2",
-          isActive: false,
-        }
-      ]
-    },
-    {
-      selectedProgram: null,
-      naslov: "Fizika",
-      programi: [
-        {
-          ime: "Ubrzani program - Fizika",
-          brojSati: "30 školskih sati",
-          cijena: 180,
-          style: "col-span-2",
-          isActive: false,
-        },
-        {
-          ime: "Fizika",
-          brojSati: "60 školskih sati",
-          cijena: 340,
-          style: "col-span-2",
-          isActive: false,
-        }
-
-      ]
-    },
-    {
-      selectedProgram: null,
-      naslov: "Kemija",
-      programi: [
-        {
-          ime: "Ubrzani program - Kemija",
-          brojSati: "30 školskih sati",
-          cijena: 180,
-          style: "col-span-2",
-          isActive: false,
-        },
-        {
-          ime: "Kemija",
-          brojSati: "60 školskih sati",
-          cijena: 340,
-          style: "col-span-2",
-          isActive: false,
-        }
-      ]
-    },
-  ])
 
 
 
@@ -799,83 +714,6 @@
     "Regulacija i upravljanje",
   ]
 
-  const matematika = ref([
-    {
-      ime: "Matematika A razina",
-      brojSati: "70 školskih sati",
-      cijena: 390,
-      isActive: false,
-    },
-    {
-      ime: "Matematika B razina",
-      brojSati: "50 školskih sati",
-      cijena: 280,
-      isActive: false,
-    },
-    {
-      ime: "Matematika A razina",
-      brojSati: "35 školskih sati",
-      fast: "Ubrzani program",
-      cijena: 200,
-      isActive: false,
-    },
-  ])
-
-  const engleski = ref([
-    {
-      ime: "Engleski A razina",
-      brojSati: "40 školskih sati",
-      cijena: 240,
-      isActive: false,
-    },
-    {
-      ime: "Engleski B razina",
-      brojSati: "30 školskih sati",
-      cijena: 180,
-      isActive: false,
-    },
-  ])
-
-  const hrvatski = ref([
-    {
-      ime: "Hrvatski",
-      brojSati: "60 školskih sati",
-      cijena: 340,
-      isActive: false,
-    },
-  ])
-
-  const fizika = ref([
-    {
-      ime: "Fizika",
-      brojSati: "60 školskih sati",
-      cijena: 340,
-      isActive: false,
-    },
-    {
-      ime: "Fizika",
-      brojSati: "30 školskih sati",
-      fast: "Ubrzani program",
-      cijena: 180,
-      isActive: false,
-    },
-  ])
-
-  const kemija = ref([
-    {
-      ime: "Kemija",
-      brojSati: "60 školskih sati",
-      cijena: 340,
-      isActive: false,
-    },
-    {
-      ime: "Kemija",
-      brojSati: "30 školskih sati",
-      fast: "Ubrzani program",
-      cijena: 180,
-      isActive: false,
-    },
-  ])
 </script>
 
 <style scoped>
@@ -1034,5 +872,4 @@ ul li a:hover:nth-child(4) {
 
 .box-shadow1 {
   box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-}
-</style>
+}</style>
