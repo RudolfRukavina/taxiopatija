@@ -1,40 +1,56 @@
 <template>
-  <nav id='navbar'
+  <nav id="navbar"
     class="bg-gradient-to-t from-indigo-100 from-10% via-sky-50 via-30% to-emerald-50 to-90% flex shadow-2xl overflow-x-scroll">
-    <div class="max-w-screen-xl px-4 py-3 mx-auto">
+    <div class="px-4 mx-auto">
       <div class="flex items-center">
-        <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
-          <li class='text-nowrap whitespace-nowrap ps-5'>
-            <NuxtLink to="/" class="text-gray-900 dark:text-white hover:underline text-nowrap" aria-current="page">
-              Naslovnica</NuxtLink>
-          </li>
-          <div class='border border-blue-200'></div>
-          <li class='text-nowrap whitespace-nowrap'>
-            <NuxtLink to="/instrukcije" class="text-gray-900 dark:text-white hover:underline text-nowrap">Instrukcije
+        <ul class="flex flex-row font-medium mt-0 rtl:space-x-reverse text-md text-nowrap whitespace-nowrap">
+          <li>
+            <NuxtLink to="/" class="link-item" aria-current="page">
+              <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
+                Naslovnica
+              </div>
             </NuxtLink>
           </li>
-          <div class='border border-blue-200'></div>
-          <li class='text-nowrap whitespace-nowrap'>
-            <NuxtLink to='mojepripreme' class="text-gray-900 dark:text-white hover:underline text-nowrap">Moje pripreme
+          <li>
+            <NuxtLink to="/instrukcije" class="link-item">
+              <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
+                Instrukcije
+              </div>
             </NuxtLink>
           </li>
-          <div class='border border-blue-200'></div>
-          <li class='text-nowrap whitespace-nowrap'>
-            <NuxtLink to='ostaleusluge' class="text-gray-900 dark:text-white hover:underline text-nowrap">Ostale usluge
+          <li>
+            <NuxtLink to="mojepripreme" class="link-item">
+              <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
+                Moje pripreme
+              </div>
             </NuxtLink>
           </li>
-          <div class='border border-blue-200'></div>
-          <li class='text-nowrap whitespace-nowrap'>
-            <NuxtLink to="kontakt" class="text-gray-900 dark:text-white hover:underline text-nowrap">Kontakt</NuxtLink>
-          </li>
-          <div class='border border-blue-200'></div>
-          <li class='text-nowrap whitespace-nowrap'>
-            <NuxtLink href="iskustva" class="text-gray-900 dark:text-white hover:underline text-nowrap">Iskustva
+          <li>
+            <NuxtLink to="ostaleusluge" class="link-item">
+              <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
+                Ostale usluge
+              </div>
             </NuxtLink>
           </li>
-          <div class='border border-blue-200'></div>
-          <li class='text-nowrap whitespace-nowrap pe-3'>
-            <NuxtLink to="programi" class="text-gray-900 dark:text-white hover:underline text-nowrap">Svi programi
+          <li>
+            <NuxtLink to="kontakt" class="link-item">
+              <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
+                Kontakt
+              </div>
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="iskustva" class="link-item">
+              <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
+                Iskustva
+              </div>
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="programi" class="link-item">
+              <div class="link-content p-1 px-3 m-1 border-x my-2 border-sky-100 rounded-xl">
+                Svi programi
+              </div>
             </NuxtLink>
           </li>
         </ul>
@@ -46,3 +62,13 @@
 <script setup></script>
 
 <style scoped></style>
+
+<style scoped>
+.router-link-exact-active .link-content {
+  color: rgb(28, 28, 28);
+  font-weight: 600;
+  text-decoration: underline;
+  background-color: rgb(228, 247, 255);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+</style>

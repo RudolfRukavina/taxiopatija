@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pt-24 h-[95vh] dark:ring-white/10 ring-primary/5 bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-blue-200 to-90%  shadow-xl items-center flex flex-col p-8 w-full bg-white ">
+    class="pt-24  dark:ring-white/10 ring-primary/5 bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-blue-200 to-90%  shadow-xl items-center flex flex-col p-8 w-full bg-white ">
     <NuxtLink to="/" class='absolute left-0  top-14 mx-5 text-3xl rounded-xl px-3 p-5'><i class=" fa fa-chevron-left"></i>
     </NuxtLink>
     <div class="relative flex items-center gap-x-4">
