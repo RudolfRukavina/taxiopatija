@@ -1,8 +1,8 @@
 <template>
   <div class="p-4 bg-gradient-to-b from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 to-90%">
-    <div class="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-4 ">
+    <div class="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-2 ">
       <div
-        class="lg:row-span-2 ring-1  ring-primary/5 bg-white  shadow-xl  rounded-3xl p-8 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90%">
+        class="lg:row-span-1 ring-1  ring-primary/5 bg-white  shadow-xl  rounded-3xl p-8 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90%">
         <div class="relative flex items-center gap-x-4">
           <img
             src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
@@ -22,16 +22,7 @@
         <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
           Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
           <br> <br>
-          "Mi smo četiri studenta i entuzijasta iz Rijeke. Znanje stečeno na fakultetu omogućilo nam je da se bavimo
-          instrukcijama iz raznih područja. Iskustvo i znanje koje smo tim putem stekli potaknulo nas je da proširimo
-          svoju djelatnost te olakšamo učenje većem broju učenika i studenata. Tako smo došli na ideju da otvorimo
-          vlastitu školu za poduke. Odlučili smo ozbiljno pristupiti ideji te uložiti puno truda i vremena kako bi
-          realizirali naš projekt. S vremenom, kao učenici i studenti, upoznali smo se s obrazovnim sustavom i njegovim
-          nedostatcima pa ovim putem želimo ponuditi pomoć svima onima koji nailaze na razne prepreke, na kakve smo i sami
-          nailazili prilikom obrazovnog procesa. Baš zato što smo mladi i osvješteni vjerujemo da možemo prenositi znanje
-          na jednostavan i zanimljiv način.
 
-          Škola Parallel počela je s radom u Rijeci 1. veljače 2022. godine."
         </p>
       </div>
 
@@ -322,6 +313,86 @@
         </div> -->
       </div>
       <div
+        class="ring-1 lg:row-start-2 lg:row-span-1 items-center h-full flex p-3 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+        <div id="carousel" class="relative w-full" data-carousel="slide">
+          <!-- Carousel wrapper -->
+
+          <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/380892954_334349485821452_4074856091470605192_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=oT9quv1hQRoAX9cadPJ&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCULMCtWDND6SBK2NENdESIdJm5hcinCwpG2aRyJB-Ofg&oe=65BBE538"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/374572073_320649660524768_3665922957013428077_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=AxvHd16acgwAX8gkqWO&_nc_ht=scontent.fzag3-1.fna&oh=00_AfByLhkUSzEBtSYMKkuUg9VmhhYD3pdhaK5tVCxZOaL8fA&oe=65BD5D74"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/343646101_1460008451402789_8388681347473877191_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=3IIo_9Vu544AX8ydA5G&_nc_ht=scontent.fzag3-1.fna&oh=00_AfAHu6YYxt_w9jAmRZaea3t8fUeJflmYLhhIK5b8eyr1bA&oe=65BC25AB"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/308998411_181876414402094_1583496055882924302_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=3SYT37t15OMAX8usnvE&_nc_ht=scontent.fzag3-1.fna&oh=00_AfATJFNIEyzFj_BXbBuGCEZ5tGTNvqFP4DXzzVTvlBoCFw&oe=65BC2A9B"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+              <img
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/273039287_116521870925415_4001426306569107080_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=JgVIpJO3LAcAX-R8R_9&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCJJsXF6oC7rCNgFBWWF0mcr36oUpdn-UnQpnijjL3mJQ&oe=65BBEC07"
+                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-2xl" alt="...">
+            </div>
+          </div>
+          <!-- Slider indicators -->
+          <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+              data-carousel-slide-to="0"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+              data-carousel-slide-to="1"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+              data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+              data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+              data-carousel-slide-to="4"></button>
+          </div>
+          <!-- Slider controls -->
+          <button type="button"
+            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M5 1 1 5l4 4" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button"
+            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span
+              class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="m1 9 4-4-4-4" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+
+      </div>
+      <div
         class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col p-8 h-full bg-white  dark:bg-secondary">
         <div class="relative flex items-center gap-x-4">
           <img
@@ -379,7 +450,7 @@
         </div>
       </div>
       <div
-        class="ring-1 lg:row-start-3 items-center h-full flex p-3 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
+        class="ring-1 lg:row-start-3 lg:row-span-1 items-center h-full flex p-3 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
           <!-- Carousel wrapper -->
 
@@ -872,4 +943,5 @@ ul li a:hover:nth-child(4) {
 
 .box-shadow1 {
   box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
-}</style>
+}
+</style>
