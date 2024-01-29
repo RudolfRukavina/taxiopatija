@@ -57,7 +57,8 @@
       </div>
     </div>
   </nav> -->
-  <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white shadow-xl text-sm py-4 sm:py-0 ">
+  <header
+    class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-slate-500 text-white shadow-xl text-sm py-4 sm:py-0 ">
     <nav class="max-w-[85rem] w-full mx-auto px-4 md:px-6 lg:px-8" aria-label="Global">
       <div class="relative sm:flex sm:items-center">
         <div class="flex items-center justify-between">
@@ -67,7 +68,7 @@
               alt="" class="h-9 w-9 rounded-full shadow-xl inline-block me-3 ring-1 ring-primary/5">
             <div class="text-lg leading-6 inline-block items-center">
               <p class="font-medium text-3xl text-primary  ">
-                Poduke Parallel
+
               </p>
 
             </div>
@@ -97,18 +98,21 @@
         <div id="navbar-basic-usage"
           class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block">
           <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-            <NuxtLink to='/' class="font-medium  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+            <NuxtLink to='/naslovnica'
+              class="font-medium  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
               Naslovnica</NuxtLink>
+            <NuxtLink to='/' class="font-medium  dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+              Sve</NuxtLink>
 
             <NuxtLink to='/onama'
-              class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+              class="font-medium text-gray-50 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
               O nama</NuxtLink>
             <NuxtLink to='/mojepripreme'
-              class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+              class="font-medium text-gray-50 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
               Pripreme za državnu maturu</NuxtLink>
             <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
               <button type="button"
-                class="sm:py-4 flex items-center w-full text-gray-600 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                class="sm:py-4 flex items-center w-full text-gray-50 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                 Instrukcije
                 <svg class="ms-2 flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -145,7 +149,7 @@
 
             <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none]">
               <button type="button"
-                class="sm:py-4 flex items-center w-full text-gray-600 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+                class="sm:py-4 flex items-center w-full text-gray-50 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
                 Ostale usluge
                 <svg class="ms-2 flex-shrink-0 w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                   viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -186,7 +190,7 @@
                 </div>
               </div>
             </div>
-            <a href="tel:+385917865619" class="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500
+            <a href="tel:+385917865619" class="font-medium text-gray-50 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500
                   dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
               Nazovite nas!</a>
 
