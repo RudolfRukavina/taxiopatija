@@ -1,4 +1,13 @@
 <template>
+  <div>
+
+    <Head>
+      <Title>Parallel Poduke</Title>
+      <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
+      <Style type="text/css" />
+    </Head>
+
+  </div>
   <div class="p-4 bg-gradient-to-b from-indigo-300 from-10% via-sky-300 via-30% to-emerald-300 to-90%">
     <div class="grid grid-cols-1 gap-4 list-none lg:grid-cols-3 lg:grid-rows-3 xl:grid-cols-4 xl:grid-rows-2 ">
       <div
@@ -753,6 +762,25 @@
   } from 'flowbite'
 
 
+  useHead({
+    title: 'My App',
+    meta: [
+      { name: 'description', content: 'My amazing site.' }
+    ],
+    bodyAttrs: {
+      class: 'test'
+    },
+    script: [{ innerHTML: 'console.log(\'Hello world\')' }]
+  })
+
+  useSeoMeta({
+    title: 'My Amazing Site',
+    ogTitle: 'My Amazing Site',
+    description: 'This is my amazing site, let me tell you all about it.',
+    ogDescription: 'This is my amazing site, let me tell you all about it.',
+    ogImage: 'https://example.com/image.png',
+    twitterCard: 'summary_large_image',
+  })
 
   // initialize components based on data attribute selectors
   onMounted(() => {
