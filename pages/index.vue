@@ -19,13 +19,13 @@
           <div class="text-lg leading-6">
             <p class="font-semibold text-3xl text-primary ">
               <NuxtLink to="/onama"> <span class="absolute inset-0"></span>
-                Poduke Parallel
+                <h1>Poduke Parallel</h1>
               </NuxtLink>
             </p>
 
-            <p class="text-zinc-500 dark:text-zinc-400">
+            <h2 class="text-zinc-500 dark:text-zinc-400">
               O nama
-            </p>
+            </h2>
           </div>
         </div>
         <p class="text-3xl mt-6 font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
@@ -127,10 +127,10 @@
 
           <div class="pt-5">
             <div class="text-center font-semibold">
-              <h1 class="text-3xl">
+              <h2 class="text-3xl">
                 <span class="text-blue-700 tracking-wide">Moje </span>
                 <span>pripreme za državnu maturu</span>
-              </h1>
+              </h2>
               <p class="mt-4 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-xl">
                 Uspješno savladajte gradivo neophodno za polaganje državne mature!
               </p>
@@ -142,7 +142,7 @@
                 class="min-w-full p-6 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white">
 
                 <div>
-                  <h1 class="text-white font-semibold text-2xl">Kreiraj svoj plan!</h1>
+                  <h3 class="text-white font-semibold text-2xl">Kreiraj svoj plan!</h3>
 
                   <hr class="mt-4 border-1 border-gray-600">
                   <p class="pt-2 tracking-wide">
@@ -569,7 +569,7 @@
             <div class="text-center">
               <p class="font-medium text-blue-500 dark:text-blue-400">Kontakt</p>
 
-              <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Kontaktirajte nas!</h1>
+              <h3 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Kontaktirajte nas!</h3>
 
               <p class="mt-3 text-gray-500 dark:text-gray-400">Za bilo kakva pitanja ili usluge, slobodno nas
                 kontaktirajte nas na broj telefona ili e-mail.</p>
