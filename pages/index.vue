@@ -2,7 +2,7 @@
   <div>
 
     <Head>
-      <Title>Parallel Poduke</Title>
+      <Title>Parallel Poduke - Unaprijedite svoje učenje.</Title>
       <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
       <Style type="text/css" />
     </Head>
@@ -15,11 +15,11 @@
         <div class="relative flex items-center gap-x-4">
           <img
             src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-            alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
+            alt="parallellogo" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
           <div class="text-lg leading-6">
             <p class="font-semibold text-3xl text-primary ">
               <NuxtLink to="/onama"> <span class="absolute inset-0"></span>
-                <h1>Poduke Parallel</h1>
+                <h1>Mi smo Poduke Parallel</h1>
               </NuxtLink>
             </p>
 
@@ -42,7 +42,7 @@
         <div class="relative flex items-center gap-x-4">
           <img
             src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-            alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
+            alt="parallellogo" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
           <div class="text-lg leading-6">
             <p class="font-semibold text-3xl text-primary ">
               <NuxtLink to="/instrukcije"> <span class="absolute inset-0"></span>
@@ -111,7 +111,7 @@
         <div class="relative flex items-center gap-x-4">
           <img
             src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-            alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
+            alt="parallellogo" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
           <div class="text-lg leading-6">
             <p class="font-semibold text-3xl text-primary ">
               <NuxtLink to="/mojepripreme"> <span class="absolute inset-0"></span>
@@ -430,7 +430,7 @@
         <div class="relative flex items-center gap-x-4">
           <img
             src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-            alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
+            alt="parallellogo" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
           <div class="text-lg leading-6">
             <p class="font-semibold text-3xl text-primary ">
               <NuxtLink to="/ostaleusluge"> <span class="absolute inset-0"></span>
