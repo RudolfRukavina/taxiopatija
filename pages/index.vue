@@ -48,7 +48,7 @@
 
         <div class='pt-10 lg:pt-0'>
           <div>
-            <RouterLink to="/instrukcije/osnovna"
+            <NuxtLink to="/instrukcije/osnovna"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-md px-5 py-1 font-bold">Osnovna škola</span>
@@ -57,10 +57,10 @@
                   d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-            </RouterLink>
+            </NuxtLink>
           </div>
           <div>
-            <RouterLink to="/instrukcije/srednja"
+            <NuxtLink to="/instrukcije/srednja"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-md px-5 py-1 font-bold">Srednja škola</span>
@@ -69,10 +69,10 @@
                   d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-            </RouterLink>
+            </NuxtLink>
           </div>
           <div>
-            <RouterLink to="/instrukcije/fakultet"
+            <NuxtLink to="/instrukcije/fakultet"
               class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
               role="alert">
               <span class="text-md px-5 py-1 font-bold">Fakultet</span>
@@ -81,7 +81,19 @@
                   d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                   clip-rule="evenodd"></path>
               </svg>
-            </RouterLink>
+            </NuxtLink>
+          </div>
+          <div>
+            <NuxtLink to="/instrukcije/jezik"
+              class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"
+              role="alert">
+              <span class="text-md px-5 py-1 font-bold">Tečaj stranog jezika</span>
+              <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </NuxtLink>
           </div>
         </div>
       </div>
@@ -117,7 +129,7 @@
             <div class="pt-5 flex flex-row blur-[0.5px]">
 
               <!-- StartUp Card -->
-              <NuxtLink to='/mojepripreme'
+              <div to='/mojepripreme'
                 class="min-w-full p-6 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white">
 
                 <div>
@@ -170,10 +182,11 @@
 
 
                 </div>
-              </NuxtLink>
+              </div>
 
 
             </div>
+
           </div>
         </NuxtLink>
         <!-- <div class='mt-3 grid justify-center'>
@@ -313,6 +326,15 @@
             Total Price: {{ totalSelectedPrice }} €
           </div>
         </div> -->
+        <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base underline">Moguće je obročno
+          plaćanje paketa
+          priprema za državnu maturu.</li>
+        <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
+          državnu maturu iz dva predmeta odobravamo <span class='text-bold'> 10% popusta</span>.</li>
+        <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme za
+          državnu maturu iz tri ili više predmeta odobravamo <span class='text-bold'> 20% popusta</span>.</li>
+        <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete 20 i više sati
+          tečaja stranog jezika odobravamo 20% popusta.</li>
       </div>
       <div
         class="ring-1 lg:row-start-2 lg:row-span-1 items-center h-full flex p-3 flex-col justify-center hover:ring-primary/5 dark:hover:ring-white/20 dark:ring-white/10 ring-primary/5 relative rounded-3xl overflow-hidden bg-white dark:bg-secondary shadow-xl dark:shadow-thick">
@@ -538,7 +560,7 @@
             <div class="text-center">
               <p class="font-medium text-blue-500 dark:text-blue-400">Kontakt</p>
 
-              <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Kontaktiraj nas!</h1>
+              <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Kontaktirajte nas!</h1>
 
               <p class="mt-3 text-gray-500 dark:text-gray-400">Za bilo kakva pitanja ili usluge, slobodno nas
                 kontaktirajte nas na broj telefona ili e-mail.</p>

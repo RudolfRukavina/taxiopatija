@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pt-24 dark:ring-white/10 ring-primary/5 bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-blue-200 to-90% shadow-xl items-center flex flex-col p-8 w-full bg-white">
+    class="pt-24 min-h-[80vh] dark:ring-white/10 ring-primary/5 bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-blue-200 to-90% shadow-xl items-center flex flex-col p-8 w-full bg-white">
     <NuxtLink to="/" class='absolute left-0  top-14 mx-5 text-3xl rounded-xl px-3 p-5'><i class=" fa fa-chevron-left"></i>
     </NuxtLink>
     <a href="tel:+385917865619" class='absolute right-0  top-14 mx-5 text-3xl rounded-xl px-3 p-5'>
@@ -16,10 +16,10 @@
         alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
       <div class="text-lg leading-6">
         <p class="font-semibold text-4xl text-primary "> <a href="#"> <span class="absolute inset-0"></span>
-            Instrukcije
+            Tečaj
           </a> </p>
         <h2 class="text-zinc-500 text-2xl">
-          za fakultet
+          stranog jezika
         </h2>
       </div>
     </div>
@@ -34,12 +34,12 @@
           <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" class="px-6 py-3 text-center text-2xl">
-                Fakultet
+                Strani jezik
               </th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for='item in fakultet'
+            <tr v-for='item in jezici'
               class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
               <th scope="row" class="px-6 py-1 text-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 {{ item.title }}
@@ -51,33 +51,13 @@
           <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" class="px-6 py-3 text-base">
-                Instrukcije
+                15,00 €
               </th>
               <th scope="col" class="px-6 py-3">
                 / školski sat
               </th>
             </tr>
           </thead>
-          <tbody>
-            <tr
-              class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-              <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Individualno
-              </th>
-              <td class="px-6 py-4 font-bold">
-                15,00 €
-              </td>
-            </tr>
-            <tr
-              class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-              <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                Grupno
-              </th>
-              <td class="px-6 py-4 font-bold">
-                11,00 €
-              </td>
-            </tr>
-          </tbody>
         </table>
       </div>
 
@@ -88,32 +68,15 @@
 <script setup>
   import { ref } from "vue"
 
-  const fakultet = ref([
+  const jezici = ref([
     {
-      title: "Matematika",
+      title: "Engleski",
     },
     {
-      title: "Fizika",
+      title: "Njemački",
     },
     {
-      title: "Inženjerska matematika",
+      title: "Talijanski",
     },
-    {
-      title: "Osnove elektrotehnike",
-    },
-    {
-      title: "Programiranje",
-    },
-    {
-      title: "Mehanika",
-    },
-    {
-      title: "Kemija",
-    },
-    {
-      title: "Ekonomija",
-    },
-
-
   ])
 </script>
