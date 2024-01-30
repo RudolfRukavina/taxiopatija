@@ -25,7 +25,7 @@
         </NuxtLink>
       </div>
       <div
-        class="lg:row-span-1   ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
+        class="lg:row-span-1   ring-primary/5 bg-white  shadow-xl  px-8 py-10 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
 
         <p class="text-4xl mt-3 text-center font-medium lg:text-5xl tracking-tight text-primary dark:text-white">
           Dobrodošli u poduke Parallel!
