@@ -50,7 +50,7 @@
 
 
         <p class='text-center  text-4xl border-b border-slate-500 mx-20 py-3 bg-gray-50'>
-          Izbornik 🤓</p>
+          Izbornik</p>
         <br>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/mojepripreme'
