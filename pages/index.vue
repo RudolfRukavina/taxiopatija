@@ -52,10 +52,13 @@
         </g>
       </svg>
     </div>
-    <section class="content-section bg-white pt-28" id="usluge">
+    <section class="content-section bg-white py-16" id="usluge">
       <div class="container mx-auto px-4 lg:px-5">
-        <div class="text-center">
-          <h2 class="my-4 text-5xl font-bold leading-tight w-full">Usluge</h2>
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          Usluge
+        </h2>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div class="col-span-1 lg:col-span-1">
@@ -109,7 +112,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-gray-100 py-8 pt-28" id='pripreme'>
+    <section class="gradient py-8 " id='pripreme'>
       <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Pripreme za državnu maturu
@@ -236,7 +239,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-white border-b py-8 pt-28" id='instrukcije'>
+    <section class="bg-white border-b py-8 " id='instrukcije'>
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Instrukcije
@@ -383,7 +386,7 @@
       </div>
     </section>
 
-    <section class="bg-white border-b py-8 pt-28" id='ostalo'>
+    <section class="bg-white  py-8 " id='ostalo'>
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Ostale usluge
@@ -463,7 +466,7 @@
       xmlns:xlink="http://www.w3.org/1999/xlink">
       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-          <g class="wave" fill="#f8fafc">
+          <g class="wave" fill="#ffffff">
             <path
               d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z">
             </path>

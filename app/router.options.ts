@@ -9,6 +9,7 @@ export default <RouterConfig>{
       console.log('to.hash: ', to.hash);
       return {
         el: to.hash,
+        top: 100,
         behavior: 'smooth',
         easing: 'ease-in-out'
       };
@@ -27,15 +28,5 @@ export default <RouterConfig>{
     }
 
     // this will use saved scroll position on browser forward/back navigation
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve({
-          left: savedPosition?.left || 0,
-          top: savedPosition?.top || 0,
-          behavior: 'smooth',
-          easing: 'ease-in-out',
-        });
-      }, 1);
-    });
   },
 };
