@@ -220,7 +220,7 @@
       </div>
     </div>
   </nav>
-  <nav class="bg-white shadow-xl overflow-x-scroll text-nowrap whitespace-nowrap px-5">
+  <nav class="bg-white shadow-xl overflow-x-auto text-nowrap whitespace-nowrap px-5">
     <div class="max-w-screen-xl px-4 py-3 mx-auto">
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
