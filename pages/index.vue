@@ -47,10 +47,13 @@
         </div>
       </div>
 
-      <div class="lg:row-span-1   ring-primary/5 bg-slate-50    px-8  pb-6 ">
+      <div
+        class="lg:row-span-1   ring-primary/5 bg-gradient-to-t from-sky-50 from-10% via-emerald-50 via-30% to-sky-50 to-90%    px-8  pb-6 ">
 
-        <hr>
-        <p class='text-center  text-4xl border-b mx-20 py-3'>Izbornik 🤓</p>
+        <hr class='bg-slate-800'>
+        <p
+          class='text-center  text-4xl border-b mx-20 py-3 bg-gradient-to-t from-sky-50 from-10% via-emerald-50 via-30% to-sky-50 to-90%'>
+          Izbornik 🤓</p>
         <br>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/mojepripreme'
@@ -126,7 +129,7 @@
         </div>
       </div>
 
-      <hr>
+      <hr class='bg-slate-800'>
 
     </div>
   </div>
