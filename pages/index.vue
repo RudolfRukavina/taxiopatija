@@ -71,7 +71,7 @@
             </NuxtLink>
           </div>
           <div class="col-span-1 lg:col-span-1">
-            <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#ostalo' }">
+            <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#pripreme' }">
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
