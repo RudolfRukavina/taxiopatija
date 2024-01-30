@@ -35,7 +35,7 @@
         </p>
         <div class="flex justify-center mb-6 lg:mb-8 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/onama'
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border-4 border-slate-100  bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             O nama
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -50,14 +50,14 @@
       <div
         class="lg:row-span-1   ring-primary/5 bg-gradient-to-t from-sky-50 from-10% via-emerald-50 via-30% to-sky-50 to-90%    px-8  pb-6 ">
 
-        <hr class='bg-slate-800'>
+        <hr class='border-slate-600'>
         <p
-          class='text-center  text-4xl border-b mx-20 py-3 bg-gradient-to-t from-sky-50 from-10% via-emerald-50 via-30% to-sky-50 to-90%'>
+          class='text-center  text-4xl border-b border-slate-800 mx-20 py-3 bg-gradient-to-t from-sky-50 from-10% via-emerald-50 via-30% to-sky-50 to-90%'>
           Izbornik 🤓</p>
         <br>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/mojepripreme'
-            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border-4 border-slate-100  bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Pripreme za državnu maturu
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +69,7 @@
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/instrukcije'
-            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border-4 border-slate-100  bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Instrukcije
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +81,7 @@
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/instrukcije/jezik'
-            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border-4 border-slate-100  bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Tečajevi stranih jezika
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +93,7 @@
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/usluge/seminari'
-            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border-4 border-slate-100  bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Pomoć u pisanju seminara
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +105,7 @@
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/usluge/natjecanja'
-            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border-4 border-slate-100  bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Priprema za natjecanja
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +117,7 @@
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/usluge/seminari'
-            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-3xl border-4 border-slate-100  bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Organizacija seminara
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -129,8 +129,7 @@
         </div>
       </div>
 
-      <hr class='bg-slate-800'>
-
+      <hr class='border-slate-600'>
     </div>
   </div>
 </template>
