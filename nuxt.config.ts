@@ -6,7 +6,8 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
     }
   },
-  plugins: ["~/plugins/preline.client.ts"],
+  ssr: false,
+
     modules: [
     '@nuxtjs/tailwindcss',
       'nuxt-swiper',

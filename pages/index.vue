@@ -7,7 +7,7 @@
   <!--Hero-->
 
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
-    <div class="pt-24" id="page-top">
+    <div class="pt-24">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
@@ -18,7 +18,7 @@
           <p class="leading-normal text-2xl mb-8">
             Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
           </p>
-          <NuxtLink :to="{ path: '/', hash: '#usluge' }"
+          <NuxtLink to="#usluge"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Usluge
           </NuxtLink>
@@ -62,7 +62,7 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div class="col-span-1 lg:col-span-1">
-            <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#instrukcije' }">
+            <NuxtLink class="portfolio-item block relative" to="#instrukcije">
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
@@ -74,7 +74,7 @@
             </NuxtLink>
           </div>
           <div class="col-span-1 lg:col-span-1">
-            <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#pripreme' }">
+            <NuxtLink class="portfolio-item block relative" to="#pripreme">
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
@@ -86,7 +86,7 @@
             </NuxtLink>
           </div>
           <div class="col-span-1 lg:col-span-1">
-            <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#ostalo' }">
+            <NuxtLink class="portfolio-item block relative" to="#ostalo">
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
@@ -98,7 +98,7 @@
             </NuxtLink>
           </div>
           <div class="col-span-1 lg:col-span-1">
-            <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#ostalo' }">
+            <NuxtLink class="portfolio-item block relative" to="#ostalo">
               <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
@@ -396,7 +396,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <NuxtLink :to="{ path: '/', hash: '#seminari' }" class="flex flex-wrap no-underline hover:no-underline">
+            <NuxtLink to="#seminari" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full font-bold text-xl pt-3 text-gray-800 px-6">
                 Seminari
               </div>
@@ -417,7 +417,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <NuxtLink :to="{ path: '/', hash: '#pisanje' }" class="flex flex-wrap no-underline hover:no-underline">
+            <NuxtLink to="#pisanje" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full pt-3 font-bold text-xl text-gray-800 px-6">
                 Pomoć u pisanju
               </div>
@@ -438,7 +438,7 @@
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <NuxtLink :to="{ path: '/', hash: '#natjecanja' }" class="flex flex-wrap no-underline hover:no-underline">
+            <a to="'#natjecanja" class="flex flex-wrap no-underline hover:no-underline">
               <div class="w-full pt-3 font-bold text-xl text-gray-800 px-6">
                 Priprema za natjecanja
               </div>
@@ -446,7 +446,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
                 amet ligula.
               </p>
-            </NuxtLink>
+            </a>
           </div>
           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div class="flex items-center justify-end">

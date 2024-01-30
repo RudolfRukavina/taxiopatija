@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.1",
-    "nuxt": "^3.9.3",
+    "nuxt": "^3.10.0",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
   },
@@ -19,7 +19,6 @@
     "@nuxtjs/google-fonts": "^3.1.3",
     "flowbite": "^2.2.1",
     "keen-slider": "^6.8.6",
-    "nuxt-swiper": "^1.2.2",
-    "preline": "^2.0.3"
+    "nuxt-swiper": "^1.2.2"
   }
 }
