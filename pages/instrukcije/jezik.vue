@@ -18,7 +18,7 @@
 
 
 
-    <div class='pt-10'>
+    <div class=''>
 
 
       <div class="relative overflow-x-auto shadow-md rounded-lg">

@@ -18,7 +18,7 @@
 
 
 
-    <div class='pt-10'>
+    <div class=''>
       <div
         class="lg:col-span-2 bg-gradient-to-t from-indigo-100 from-10% via-sky-100 via-30% to-emerald-50 to-90% xl:col-span-1 h-full flex flex-col justify-between lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 bg-white dark:bg-secondary shadow-xl dark:shadow-thick rounded-3xl p-8">
         <span class="font-bold text-xl  uppercase">Svi Programi</span>

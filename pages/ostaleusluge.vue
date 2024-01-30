@@ -18,7 +18,7 @@
 
 
 
-    <div class='pt-10 '>
+    <div class=' '>
       <div>
         <NuxtLink to="/usluge/seminar"
           class="inline-flex justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"

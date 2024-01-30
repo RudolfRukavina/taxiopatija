@@ -18,7 +18,7 @@
 
 
 
-    <div class='pt-10'>
+    <div class=''>
       <div>
         <RouterLink to="/instrukcije/osnovna"
           class="inline-flex w-72 justify-between items-center py-2 px-1 pr-4 mb-3 text-md text-gray-700 bg-white shadow rounded-full"

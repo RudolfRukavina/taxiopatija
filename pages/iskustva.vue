@@ -17,7 +17,7 @@
 
 
 
-    <div class='pt-10 '>
+    <div class=' '>
       <div
         class="max-w-md dark:ring-white/10 ring-primary/5 shadow-xl dark:shadow-thick rounded-3xl p-8 lg:row-start-4 h-full flex flex-col justify-between bg-white dark:bg-secondary">
         <p class="text-xl tracking-tight font-medium text-primary dark:text-white md:text-5xl">

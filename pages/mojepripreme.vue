@@ -18,7 +18,7 @@
 
 
 
-    <div class="pt-10">
+    <div class="">
       <div class="text-center font-semibold">
         <h1 class="text-3xl">
           <span class="text-blue-700 tracking-wide">Moje </span>
