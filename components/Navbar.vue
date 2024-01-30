@@ -216,7 +216,7 @@
           Poduke Parallel</h1>
       </a>
       <div class="flex items-center space-x-6 rtl:space-x-reverse">
-        <a href="tel:5541251234" class="text-sm  text-white hover:underline">(555) 412-1234</a>
+        <a href="tel:+385917865619" class="text-sm  text-white hover:underline">+385917865619</a>
       </div>
     </div>
   </nav>
@@ -225,13 +225,16 @@
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
           <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline" aria-current="page">Naslovnica</a>
+            <NuxtLink to='/' class="text-gray-900  hover:underline">Naslovnica
+            </NuxtLink>
           </li>
           <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline">O nama</a>
+            <NuxtLink to='/' class="text-gray-900  hover:underline">O nama
+            </NuxtLink>
           </li>
           <li>
-            <a href="#" class="text-gray-900 dark:text-white hover:underline">Pripreme za državnu maturu</a>
+            <NuxtLink to='/' class="text-gray-900  hover:underline">Pripreme za državnu maturu
+            </NuxtLink>
           </li>
           <li>
             <button id="dropdownNavbarLinkInstrukcije" data-dropdown-toggle="dropdownNavbarInstrukcije"
@@ -246,50 +249,26 @@
               class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                </li>
-                <li aria-labelledby="dropdownNavbarLink">
-                  <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
-                    data-dropdown-placement="right-start" type="button"
-                    class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg
-                      class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                      viewBox="0 0 10 6">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="m1 1 4 4 4-4" />
-                    </svg></button>
-                  <div id="doubleDropdown"
-                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
-                          downloads</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
-                      </li>
-                    </ul>
-                  </div>
+                  <NuxtLink to="/instrukcije/osnovna"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Za
+                    osnovnu školu</NuxtLink>
                 </li>
                 <li>
-                  <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                  <NuxtLink to="/instrukcije/srednja"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Za
+                    srednju školu</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/instrukcije/fakultet"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Za
+                    fakultet</NuxtLink>
                 </li>
               </ul>
               <div class="py-1">
-                <a href="#"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
-                  out</a>
+                <NuxtLink to="/instrukcije/jezik"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                  Tečaj
+                  stranog jezika</NuxtLink>
               </div>
             </div>
           </li>
@@ -308,50 +287,52 @@
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                 <li>
                   <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Seminari</a>
                 </li>
-                <li aria-labelledby="dropdownNavbarLink">
-                  <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
+                <li aria-labelledby="dropdownNavbarLinkPomoc">
+                  <button id="doubleDropdownButtonPomoc" data-dropdown-toggle="doubleDropdownPomoc"
                     data-dropdown-placement="right-start" type="button"
-                    class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg
-                      class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                      viewBox="0 0 10 6">
+                    class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Pomoć
+                    u pisanju<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                      fill="none" viewBox="0 0 10 6">
                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                         d="m1 1 4 4 4-4" />
                     </svg></button>
-                  <div id="doubleDropdown"
+                  <div id="doubleDropdownPomoc"
                     class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
                     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
                       <li>
                         <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Seminara</a>
                       </li>
                       <li>
                         <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
-                          downloads</a>
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Projekata</a>
                       </li>
                       <li>
                         <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Lektira</a>
                       </li>
                       <li>
                         <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
+                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Zadaća</a>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li>
                   <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Priprema za
+                    natjecanja</a>
+                </li>
+                <li>
+                  <a href="#"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Organizacija
+                    seminara
+                  </a>
                 </li>
               </ul>
-              <div class="py-1">
-                <a href="#"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
-                  out</a>
-              </div>
+
             </div>
           </li>
           <li>
@@ -368,50 +349,33 @@
               class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-                </li>
-                <li aria-labelledby="dropdownNavbarLink">
-                  <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown"
-                    data-dropdown-placement="right-start" type="button"
-                    class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg
-                      class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                      viewBox="0 0 10 6">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="m1 1 4 4 4-4" />
-                    </svg></button>
-                  <div id="doubleDropdown"
-                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Overview</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">My
-                          downloads</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Billing</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Rewards</a>
-                      </li>
-                    </ul>
-                  </div>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
+                      class='fa fa-envelope'> poduke@parallel.hr</i></a>
                 </li>
                 <li>
-                  <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
+                      class='fa fa-map-marker'> Riva
+                      20, Rijeka</i></a>
                 </li>
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
+                      class='fa fa-phone'>+385917865619</i></a>
+                </li>
+
               </ul>
               <div class="py-1">
                 <a href="#"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign
-                  out</a>
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><i
+                    class='fa fa-facebook'>acebook</i></a>
+                <a href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><i
+                    class='fa fa-instagram'> Instragram</i></a>
+              </div>
+              <div class="py-1">
+                <a href="#"
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><i
+                    class='fa fa-calendar'> Radno
+                    vrijeme</i></a>
               </div>
             </div>
           </li>
