@@ -1,11 +1,6 @@
 <template>
-  <Head>
-    <Title>Parallel Poduke - Unaprijedite svoje učenje.</Title>
-    <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
-    <Style type="text/css" />
-  </Head>
   <!--Hero-->
-  <div class="pt-24">
+  <div class="pt-24" id="page-top">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <!--Left Col-->
       <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
@@ -16,10 +11,10 @@
         <p class="leading-normal text-2xl mb-8">
           Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
         </p>
-        <button
+        <a href='#usluge'
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-          O nama
-        </button>
+          Usluge
+        </a>
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center">
@@ -50,7 +45,64 @@
       </g>
     </svg>
   </div>
-  <section class="bg-gray-100 py-8">
+  <section class="content-section pt-28" id="usluge">
+    <div class="container mx-auto px-4 lg:px-5">
+      <div class="text-center">
+        <h2 class="my-4 text-5xl font-bold leading-tight w-full">Usluge</h2>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="col-span-1 lg:col-span-1">
+          <a class="portfolio-item block relative" href="#instrukcije">
+            <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
+              <div class="caption absolute inset-0 flex items-center justify-center">
+                <div class="text-white text-center">
+                  <div class="text-2xl">Instrukcije</div>
+                </div>
+              </div>
+            </div>
+            <img class="object-cover w-full h-full" src="../assets/img/portfolio-1.jpg" alt="..." />
+          </a>
+        </div>
+        <div class="col-span-1 lg:col-span-1">
+          <a class="portfolio-item block relative" href="#pripreme">
+            <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
+              <div class="caption absolute inset-0 flex items-center justify-center">
+                <div class="text-white text-center">
+                  <div class="text-2xl">Pripreme za državnu maturu</div>
+                </div>
+              </div>
+            </div>
+            <img class="object-cover w-full h-full" src="../assets/img/portfolio-2.jpg" alt="..." />
+          </a>
+        </div>
+        <div class="col-span-1 lg:col-span-1">
+          <a class="portfolio-item block relative" href="#ostalo">
+            <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
+              <div class="caption absolute inset-0 flex items-center justify-center">
+                <div class="text-white text-center">
+                  <div class="text-2xl">Tečajevi</div>
+                </div>
+              </div>
+            </div>
+            <img class="object-cover w-full h-full" src="../assets/img/portfolio-3.jpg" alt="..." />
+          </a>
+        </div>
+        <div class="col-span-1 lg:col-span-1">
+          <a class="portfolio-item block relative" href="#ostalo">
+            <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
+              <div class="caption absolute inset-0 flex items-center justify-center">
+                <div class="text-white text-center">
+                  <div class="text-2xl">Ostale usluge</div>
+                </div>
+              </div>
+            </div>
+            <img class="object-cover w-full h-full" src="../assets/img/portfolio-4.jpg" alt="..." />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-100 py-8 pt-28" id='pripreme'>
     <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Pripreme za državnu maturu
@@ -177,7 +229,7 @@
       </div>
     </div>
   </section>
-  <section class="bg-white border-b py-8">
+  <section class="bg-white border-b py-8 pt-28" id='instrukcije'>
     <div class="container max-w-5xl mx-auto m-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Instrukcije
@@ -324,7 +376,7 @@
     </div>
   </section>
 
-  <section class="bg-white border-b py-8">
+  <section class="bg-white border-b py-8 pt-28" id='ostalo'>
     <div class="container mx-auto flex flex-wrap pt-4 pb-12">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Ostale usluge
@@ -423,7 +475,7 @@
       </g>
     </g>
   </svg>
-  <section class="container mx-auto text-center py-6 mb-12">
+  <section class="container mx-auto text-center py-6 mb-12" id='kontakt'>
     <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
       Call to Action
     </h2>
@@ -438,7 +490,6 @@
       Nazovite nas!
     </button>
   </section>
-  <!--Footer-->
 </template>
 <script setup>
   import { ref } from "vue"
@@ -509,8 +560,48 @@
   })
 
 
+
+  onMounted(() => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+
+
 </script>
 
 <style scoped>
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+.scroll-to-top {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+  color: #fff;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top i {
+  font-weight: 800;
+}
 </style>
