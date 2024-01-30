@@ -10,6 +10,7 @@ export default <RouterConfig>{
       return {
         el: to.hash,
         behavior: 'smooth',
+        easing: 'ease-in-out'
       };
     }
 
@@ -21,6 +22,7 @@ export default <RouterConfig>{
         left: 0,
         top: 0,
         behavior: 'smooth',
+        easing: 'ease-in-out'
       };
     }
 
@@ -30,8 +32,10 @@ export default <RouterConfig>{
         resolve({
           left: savedPosition?.left || 0,
           top: savedPosition?.top || 0,
+          behavior: 'smooth',
+          easing: 'ease-in-out',
         });
-      }, 500);
+      }, 1);
     });
   },
 };
