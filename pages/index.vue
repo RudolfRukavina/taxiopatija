@@ -1,4 +1,9 @@
 <template>
+  <Head>
+    <Title>Parallel Poduke - Unaprijedite svoje učenje.</Title>
+    <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
+    <Style type="text/css" />
+  </Head>
   <!--Hero-->
   <div class="pt-24">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -435,7 +440,76 @@
   </section>
   <!--Footer-->
 </template>
-<script setup></script>
+<script setup>
+  import { ref } from "vue"
+  import { onMounted } from 'vue'
+  import {
+    initAccordions,
+    initCarousels,
+    initCollapses,
+    initDials,
+    initDismisses,
+    initDrawers,
+    initDropdowns,
+    initModals,
+    initPopovers,
+    initTabs,
+    initTooltips
+  } from 'flowbite'
+
+  // initialize components based on data attribute selectors
+  onMounted(() => {
+    initAccordions();
+    initCarousels();
+    initCollapses();
+    initDials();
+    initDismisses();
+    initDrawers();
+    initDropdowns();
+    initModals();
+    initPopovers();
+    initTabs();
+    initTooltips();
+  })
+
+
+  useHead({
+    title: 'Poduke Parallel',
+    meta: [
+      { name: 'description', content: 'Učenje bez muke, uz Parallel poduke!' }
+    ],
+    bodyAttrs: {
+      class: 'test'
+    },
+    script: [{ innerHTML: 'console.log(\'Hello world\')' }]
+  })
+
+  useSeoMeta({
+    title: 'Poduke Parallel',
+    ogTitle: 'Poduke Parallel',
+    description: 'Učenje bez muke, uz Parallel poduke!',
+    ogDescription: 'Učenje bez muke, uz Parallel poduke!',
+    ogImage: 'https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=bxA5Hh4T6ckAX88V2Gs&_nc_ht=scontent.fzag3-1.fna&oh=00_AfARCAqb2ZR2XX9J9MuI7ssMLAWAP-QfWNL0bCGxH56x4Q&oe=65BDCC55',
+    twitterCard: 'summary_large_image',
+  })
+
+  // initialize components based on data attribute selectors
+  onMounted(() => {
+    initAccordions();
+    initCarousels();
+    initCollapses();
+    initDials();
+    initDismisses();
+    initDrawers();
+    initDropdowns();
+    initModals();
+    initPopovers();
+    initTabs();
+    initTooltips();
+  })
+
+
+</script>
 
 <style scoped>
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
