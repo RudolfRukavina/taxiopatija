@@ -11,10 +11,10 @@
         <p class="leading-normal text-2xl mb-8">
           Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
         </p>
-        <a href='#usluge'
+        <NuxtLink :to="{ path: '/', hash: '#usluge' }"
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           Usluge
-        </a>
+        </NuxtLink>
       </div>
       <!--Right Col-->
       <div class="w-full md:w-3/5 py-6 text-center">
@@ -52,7 +52,7 @@
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div class="col-span-1 lg:col-span-1">
-          <a class="portfolio-item block relative" href="#instrukcije">
+          <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#instrukcije' }">
             <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
               <div class="caption absolute inset-0 flex items-center justify-center">
                 <div class="text-white text-center">
@@ -61,10 +61,10 @@
               </div>
             </div>
             <img class="object-cover w-full h-full" src="../assets/img/portfolio-1.jpg" alt="..." />
-          </a>
+          </NuxtLink>
         </div>
         <div class="col-span-1 lg:col-span-1">
-          <a class="portfolio-item block relative" href="#pripreme">
+          <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#ostalo' }">
             <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
               <div class="caption absolute inset-0 flex items-center justify-center">
                 <div class="text-white text-center">
@@ -73,10 +73,10 @@
               </div>
             </div>
             <img class="object-cover w-full h-full" src="../assets/img/portfolio-2.jpg" alt="..." />
-          </a>
+          </NuxtLink>
         </div>
         <div class="col-span-1 lg:col-span-1">
-          <a class="portfolio-item block relative" href="#ostalo">
+          <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#ostalo' }">
             <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
               <div class="caption absolute inset-0 flex items-center justify-center">
                 <div class="text-white text-center">
@@ -85,11 +85,11 @@
               </div>
             </div>
             <img class="object-cover w-full h-full" src="../assets/img/portfolio-3.jpg" alt="..." />
-          </a>
+          </NuxtLink>
         </div>
         <div class="col-span-1 lg:col-span-1">
-          <a class="portfolio-item block relative" href="#ostalo">
-            <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
+          <NuxtLink class="portfolio-item block relative" :to="{ path: '/', hash: '#ostalo' }">
+            <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
               <div class="caption absolute inset-0 flex items-center justify-center">
                 <div class="text-white text-center">
                   <div class="text-2xl">Ostale usluge</div>
@@ -97,7 +97,7 @@
               </div>
             </div>
             <img class="object-cover w-full h-full" src="../assets/img/portfolio-4.jpg" alt="..." />
-          </a>
+          </NuxtLink>
         </div>
       </div>
     </div>
@@ -386,7 +386,7 @@
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+          <NuxtLink :to="{ path: '/', hash: '#seminari' }" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full font-bold text-xl pt-3 text-gray-800 px-6">
               Seminari
             </div>
@@ -394,7 +394,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
               amet ligula.
             </p>
-          </a>
+          </NuxtLink>
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
           <div class="flex items-center justify-start">
@@ -407,7 +407,7 @@
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+          <NuxtLink :to="{ path: '/', hash: '#pisanje' }" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full pt-3 font-bold text-xl text-gray-800 px-6">
               Pomoć u pisanju
             </div>
@@ -415,7 +415,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
               amet ligula.
             </p>
-          </a>
+          </NuxtLink>
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
           <div class="flex items-center justify-center">
@@ -428,7 +428,7 @@
       </div>
       <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
         <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-          <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+          <NuxtLink :to="{ path: '/', hash: '#natjecanja' }" class="flex flex-wrap no-underline hover:no-underline">
             <div class="w-full pt-3 font-bold text-xl text-gray-800 px-6">
               Priprema za natjecanja
             </div>
@@ -436,7 +436,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
               amet ligula.
             </p>
-          </a>
+          </NuxtLink>
         </div>
         <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
           <div class="flex items-center justify-end">
