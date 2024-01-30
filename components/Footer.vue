@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-indigo-100 to-90% ">
     <div
-      class=" grid grid-cols-2 gap-2 lg:grid-cols-6  ring-primary/5 bg-white   px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-100 via-30% to-indigo-100 to-90%">
+      class=" grid grid-cols-2 gap-2 lg:grid-cols-6  ring-primary/5 bg-white   px-8 py-3 pt-6 bg-gradient-to-b from-indigo-50 from-10% via-sky-100 via-30% to-indigo-100 to-90%">
 
 
 

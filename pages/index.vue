@@ -13,7 +13,7 @@
       <div
         class="lg:row-span-1   ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
 
-        <p class="text-3xl mt-6 text-center font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
+        <p class="text-4xl mt-3 text-center font-medium lg:text-5xl tracking-tight text-primary dark:text-white">
           Dobrodošli u poduke Parallel!
         </p>
         <p class="mt-4 text-sm text-zinc-500 text-center dark:text-zinc-400 font-light lg:text-xl">
@@ -35,7 +35,7 @@
       </div>
 
       <div
-        class="lg:row-span-1   ring-primary/5 bg-white    px-8 py-3 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
+        class="lg:row-span-1   ring-primary/5 bg-white    px-8 py-3 pb-6 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
 
         <p class="text-2xl pt-6 border-t text-center font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
           Usluge
@@ -43,7 +43,7 @@
         <br>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
           <NuxtLink to='/mojepripreme'
-            class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+            class="inline-flex justify-between items-center py-3 px-5 text-lg font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Pripreme za državnu maturu
             <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
