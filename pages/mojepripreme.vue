@@ -2,7 +2,7 @@
   <div
     class="min-h-[90vh] dark:ring-white/10 ring-primary/5 bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-blue-200 to-90%  shadow-xl items-center flex flex-col p-8 w-full bg-white ">
 
-    <div class="relative flex items-center gap-x-4">
+    <!-- <div class="relative flex items-center gap-x-4">
       <img
         src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
         alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
@@ -14,7 +14,7 @@
           Pripreme za državnu maturu
         </h2>
       </div>
-    </div>
+    </div> -->
 
 
 
