@@ -12,7 +12,7 @@
 
     <div class="">
       <div class='flex justify-center'>
-        <RouterLink to='/pripreme'
+        <NuxtLink to='/mojepripreme'
           class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-white bg-slate-800   box-shadow1 rounded-full   "
           role="alert">
           <span class="text-xs bg-primary-600 rounded-full px-4 py-1.5 mr-3">Aktualno</span> <span
@@ -22,7 +22,7 @@
               d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
               clip-rule="evenodd"></path>
           </svg>
-        </RouterLink>
+        </NuxtLink>
       </div>
       <div
         class="lg:row-span-1   ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
