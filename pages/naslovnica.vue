@@ -24,7 +24,7 @@
         class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-white  shadow rounded-full   "
         role="alert">
         <span class="text-xs bg-primary-600 rounded-full px-4 py-1.5 mr-3">Aktualno</span> <span
-          class="text-sm font-bold">Pripreme za maturu</span>
+          class="text-sm font-bold">Moje pripreme za maturu</span>
         <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd"
             d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
@@ -65,12 +65,31 @@
           <NuxtLink to='/instrukcije'
             class="inline-flex w-72 justify-between items-center py-1 px-1 pr-4 mb-3 text-sm text-gray-700 bg-white  shadow rounded-full   "
             role="alert"> <span class="text-md px-5 py-1 font-bold">Instrukcije</span>
+          </NuxtLink>
+        </div>
+        <div
+          class="ring-1 dark:ring-white/10 ring-primary/5 bg-gradient-to-r from-cyan-50 to-blue-50 rounded-3xl justify-between shadow-xl dark:shadow-thick items-center flex flex-col px-4 py-2 my-4 mx-4 h-full bg-white  dark:bg-secondary">
+          <div class=" flex justify-between items-center w-full gap-x-4">
+            <div class='flex items-center'>
+              <img
+                src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
+                alt="parallellogo" class="h-6 w-6 rounded-full inline-block mx-3 ring-1 ring-primary/5">
+              <div class="text-lg leading-6 inline-block">
+                <p class="text-xl text-primary ">
+                  <NuxtLink to="/instrukcije"> <span class="absolute inset-0"></span>
+                    Instrukcije
+                  </NuxtLink>
+                </p>
+
+              </div>
+            </div>
             <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd"
                 d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                 clip-rule="evenodd"></path>
             </svg>
-          </NuxtLink>
+          </div>
+
         </div>
         <div>
           <NuxtLink to='/seminari'
@@ -107,6 +126,7 @@
         </div>
       </div>
     </div>
+
   </section>
 </template>
 

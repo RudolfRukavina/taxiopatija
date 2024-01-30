@@ -761,6 +761,21 @@
     initTooltips
   } from 'flowbite'
 
+    // initialize components based on data attribute selectors
+  onMounted(() => {
+    initAccordions();
+    initCarousels();
+    initCollapses();
+    initDials();
+    initDismisses();
+    initDrawers();
+    initDropdowns();
+    initModals();
+    initPopovers();
+    initTabs();
+    initTooltips();
+  })
+
 
   useHead({
     title: 'Poduke Parallel',
