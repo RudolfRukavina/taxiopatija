@@ -31,12 +31,12 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for='item in osnovna'
+            <!-- <tr v-for='item in osnovna'
               class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
               <th scope="row" class="px-6 py-1 text-center font-medium text-gray-900 whitespace-nowrap dark:text-white">
                 {{ item.title }}
               </th>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
