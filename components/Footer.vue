@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer-bg my-[3px]">
+  <footer class="bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-indigo-100 to-90% my-[3px]">
     <div class="mx-auto w-full max-w-screen-xl px-4 pb-3 lg:pb-6">
       <hr class=" py-2 border-gray-200 w-full " />
       <div class=" grid-cols-2 flex justify-evenly gap-8 sm:gap-6 sm:grid-cols-3">

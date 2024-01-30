@@ -11,7 +11,7 @@
   <div class=" bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90%">
     <div class=" ">
       <div
-        class="lg:row-span-1   ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90%">
+        class="lg:row-span-1   ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
 
         <p class="text-3xl mt-6 text-center font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
           Dobrodošli u poduke Parallel!
@@ -35,7 +35,7 @@
       </div>
 
       <div
-        class="lg:row-span-1   ring-primary/5 bg-white    px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90%">
+        class="lg:row-span-1   ring-primary/5 bg-white    px-8 py-3 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
 
         <p class="text-2xl pt-6 border-t text-center font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
           Usluge
@@ -115,12 +115,9 @@
         </div>
       </div>
 
-      <p
-        class="text-2xl pt-6 border-t mx-8 text-center font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
 
-      </p>
       <div
-        class=" grid grid-cols-2 gap-2  ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-t from-indigo-50 from-10% via-sky-50 via-30% to-emerald-50 to-90%">
+        class=" grid grid-cols-2 gap-2  ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
 
 
 

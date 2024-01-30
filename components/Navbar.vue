@@ -205,22 +205,22 @@
 
 
 
-  <nav class="bg-slate-500 border-gray-200">
+  <nav class="bg-slate-800 border-gray-200">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-      <a href="https://flowbite.com" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <NuxtLink to='/' class="flex items-center space-x-3 rtl:space-x-reverse">
         <img
           src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
           alt="" class="h-9 w-9 rounded-full shadow-xl inline-block me-3 ring-1 ring-primary/5">
         <h1
           class=" text-2xl font-extrabold tracking-tight leading-none text-slate-100 drop-shadow-xl [text-shadow:_0_4px_0_rgb(0_0_0_/_40%)]  lg:text-4xl ">
           Poduke Parallel</h1>
-      </a>
+      </NuxtLink>
       <div class="flex items-center space-x-6 rtl:space-x-reverse">
         <a href="tel:+385917865619" class="text-sm  text-white hover:underline">+385917865619</a>
       </div>
     </div>
   </nav>
-  <nav class="bg-gray-50 dark:bg-gray-700 overflow-x-scroll text-nowrap whitespace-nowrap px-5">
+  <nav class="bg-white shadow-xl overflow-x-scroll text-nowrap whitespace-nowrap px-5">
     <div class="max-w-screen-xl px-4 py-3 mx-auto">
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
@@ -229,11 +229,11 @@
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to='/' class="text-gray-900  hover:underline">O nama
+            <NuxtLink to='/onama' class="text-gray-900  hover:underline">O nama
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to='/' class="text-gray-900  hover:underline">Pripreme za državnu maturu
+            <NuxtLink to='/mojepripreme' class="text-gray-900  hover:underline">Pripreme za državnu maturu
             </NuxtLink>
           </li>
           <li>
@@ -286,50 +286,29 @@
               class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Seminari</a>
-                </li>
-                <li aria-labelledby="dropdownNavbarLinkPomoc">
-                  <button id="doubleDropdownButtonPomoc" data-dropdown-toggle="doubleDropdownPomoc"
-                    data-dropdown-placement="right-start" type="button"
-                    class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Pomoć
-                    u pisanju<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                      fill="none" viewBox="0 0 10 6">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="m1 1 4 4 4-4" />
-                    </svg></button>
-                  <div id="doubleDropdownPomoc"
-                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Seminara</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Projekata</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Lektira</a>
-                      </li>
-                      <li>
-                        <a href="#"
-                          class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Zadaća</a>
-                      </li>
-                    </ul>
-                  </div>
+                  <NuxtLink to='/usluge/seminari'
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    Seminari
+                  </NuxtLink>
                 </li>
                 <li>
-                  <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Priprema za
-                    natjecanja</a>
+                  <NuxtLink to='/usluge/pisanje'
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    Pomoć
+                    u pisanju</NuxtLink>
                 </li>
                 <li>
-                  <a href="#"
-                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Organizacija
+                  <NuxtLink to='/usluge/natjecanja'
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    Priprema za
+                    natjecanja</NuxtLink>
+                </li>
+                <li>
+                  <NuxtLink to="/usluge/organizacija"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                    Organizacija
                     seminara
-                  </a>
+                  </NuxtLink>
                 </li>
               </ul>
 
@@ -349,33 +328,37 @@
               class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
+                  <a href="mailto:poduke@parallel.hr"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
                       class='fa fa-envelope'> poduke@parallel.hr</i></a>
                 </li>
                 <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
+                  <a href="https://maps.app.goo.gl/9dFa9f6sUkVuHxRD9" target='_blank'
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
                       class='fa fa-map-marker'> Riva
                       20, Rijeka</i></a>
                 </li>
                 <li>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
+                  <a href="tel:+385917865619"
+                    class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
                       class='fa fa-phone'>+385917865619</i></a>
                 </li>
 
               </ul>
               <div class="py-1">
-                <a href="#"
+                <a href="https://www.facebook.com/poduke.parallel" target='_blank'
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><i
                     class='fa fa-facebook'>acebook</i></a>
-                <a href="#"
+                <a href="https://www.instagram.com/poduke.parallel" target='_blank'
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><i
                     class='fa fa-instagram'> Instragram</i></a>
               </div>
               <div class="py-1">
-                <a href="#"
-                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"><i
-                    class='fa fa-calendar'> Radno
-                    vrijeme</i></a>
+                <NuxtLink to='/radnovrijeme'
+                  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                  <i class='fa fa-calendar'> Radno
+                    vrijeme</i>
+                </NuxtLink>
               </div>
             </div>
           </li>
