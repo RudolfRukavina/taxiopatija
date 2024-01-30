@@ -7,35 +7,35 @@
 
       <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <a href="tel:+385917865619"
-          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded border border-slate-800 p-1 bg-white text-slate-800 hover:bg-gray-50 hover:border-slate-900 focus:ring-4 focus:ring-gray-100  hover:shadow-lg">
           <i class='fa fa-phone'> Nazovite nas</i>
         </a>
       </div>
       <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <a href="mailto:poduke@parallel.hr"
-          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded border border-slate-800 bg-white text-slate-800 hover:bg-gray-50  focus:ring-4 focus:ring-gray-100  hover:shadow-lg">
           <i class='fa fa-envelope text-nowrap'> <span class='text-sm'> Pošaljite email</span></i>
         </a>
       </div>
       <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <a href='https://www.facebook.com/poduke.parallel' target='_blank'
-          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded border border-slate-800 bg-white text-slate-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-100  hover:shadow-lg">
           <i class='fa fa-facebook'>acebook</i> </a>
       </div>
       <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <a href='https://www.instagram.com/poduke.parallel' target='_blank'
-          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded border border-slate-800 bg-white text-slate-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-100  hover:shadow-lg">
           <i class='fa fa-instagram'> Instagram</i>
         </a>
       </div>
       <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <a href="https://maps.app.goo.gl/9dFa9f6sUkVuHxRD9" target='_blank'
-          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded border border-slate-800 bg-white text-slate-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-100  hover:shadow-lg">
           <i class='fa fa-map-marker'> Google Maps</i> </a>
       </div>
       <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <NuxtLink to='/radnovrijeme'
-          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded border border-slate-800 bg-white text-slate-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-100  hover:shadow-lg">
           <a href=""><i class='fa fa-calendar'> Radno vrijeme</i></a>
         </NuxtLink>
       </div>
