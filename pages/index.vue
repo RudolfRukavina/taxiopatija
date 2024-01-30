@@ -66,7 +66,7 @@
           </NuxtLink>
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
+          <NuxtLink to='/instrukcije/jezik'
             class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Tečajevi stranih jezika
@@ -78,7 +78,7 @@
           </NuxtLink>
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
+          <NuxtLink to='/usluge/seminari'
             class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Pomoć u pisanju seminara
@@ -90,7 +90,7 @@
           </NuxtLink>
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
+          <NuxtLink to='/usluge/natjecanja'
             class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Priprema za natjecanja
@@ -102,7 +102,7 @@
           </NuxtLink>
         </div>
         <div class="flex justify-center my-3 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
+          <NuxtLink to='/usluge/seminari'
             class="inline-flex justify-between items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
 
             Organizacija seminara
@@ -118,51 +118,7 @@
       <p class="text-2xl border-t mx-8 text-center font-medium lg:text-4xl tracking-tight text-primary dark:text-white">
 
       </p>
-      <div
-        class=" grid grid-cols-2 gap-2 lg:grid-cols-6  ring-primary/5 bg-white  shadow-xl  px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-50 via-30% to-indigo-50 to-90%">
 
-
-
-        <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
-            <a href=""><i class='fa fa-phone'> Nazovite nas</i></a>
-          </NuxtLink>
-        </div>
-        <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
-            <a href=""><i class='fa fa-envelope'> Pošaljite email</i></a>
-          </NuxtLink>
-        </div>
-        <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
-            <a href=""><i class='fa fa-facebook'>acebook</i></a>
-          </NuxtLink>
-        </div>
-        <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
-            <a href=""><i class='fa fa-instagram'> Instagram</i></a>
-          </NuxtLink>
-        </div>
-        <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
-            <a href=""><i class='fa fa-map-marker'> Google Maps</i></a>
-          </NuxtLink>
-        </div>
-        <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <NuxtLink to='/ostaleusluge'
-            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
-            <a href=""><i class='fa fa-calendar'> Radno vrijeme</i></a>
-          </NuxtLink>
-        </div>
-
-
-
-      </div>
     </div>
   </div>
 </template>

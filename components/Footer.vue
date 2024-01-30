@@ -1,6 +1,50 @@
 <template>
-  <footer class="bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-indigo-100 to-90% my-[3px]">
+  <footer class="bg-gradient-to-b from-indigo-100 from-10% via-sky-100 via-30% to-indigo-100 to-90% ">
+    <div
+      class=" grid grid-cols-2 gap-2 lg:grid-cols-6  ring-primary/5 bg-white   px-8 py-3 bg-gradient-to-b from-indigo-50 from-10% via-sky-100 via-30% to-indigo-100 to-90%">
+
+
+
+      <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <a href="tel:+385917865619"
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          <i class='fa fa-phone'> Nazovite nas</i>
+        </a>
+      </div>
+      <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <a href="mailto:poduke@parallel.hr"
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          <i class='fa fa-envelope text-nowrap'> <span class='text-sm'> Pošaljite email</span></i>
+        </a>
+      </div>
+      <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <a href='https://www.facebook.com/poduke.parallel' target='_blank'
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          <i class='fa fa-facebook'>acebook</i> </a>
+      </div>
+      <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <a href='https://www.instagram.com/poduke.parallel' target='_blank'
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          <i class='fa fa-instagram'> Instagram</i>
+        </a>
+      </div>
+      <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <a href="https://maps.app.goo.gl/9dFa9f6sUkVuHxRD9" target='_blank'
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          <i class='fa fa-map-marker'> Google Maps</i> </a>
+      </div>
+      <div class="flex justify-center my-1 lg:mb-4 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+        <NuxtLink to='/radnovrijeme'
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium  w-full max-w-md text-center rounded-lg border border-gray-300 bg-slate-800 text-white hover:bg-slate-900 focus:ring-4 focus:ring-gray-100  box-shadow1">
+          <a href=""><i class='fa fa-calendar'> Radno vrijeme</i></a>
+        </NuxtLink>
+      </div>
+
+
+
+    </div>
     <div class="mx-auto w-full max-w-screen-xl px-4 pb-3 lg:pb-6">
+
       <hr class=" py-2 border-gray-200 w-full " />
       <div class=" grid-cols-2 flex justify-evenly gap-8 sm:gap-6 sm:grid-cols-3">
 
