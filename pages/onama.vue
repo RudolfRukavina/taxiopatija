@@ -32,34 +32,24 @@
           </h2>
         </div>
       </div>
-
-      <p class="text-sm mt-3 font-medium lg:text-xl tracking-tight text-primary">
-        <span class="font-semibold text-gray-900 dark:text-white  text-xl">Smješteni u
-          samom srcu
-          Rijeke, na adresi <a class='font-semibold text-gray-900 underline dark:text-white decoration-indigo-900 text-xl'
-            href="https://maps.app.goo.gl/9dFa9f6sUkVuHxRD9" target='_blank'>Riva 20, Rijeka</a>,</span> mi smo četvero
-        entuzijastična studenta koji dijele zajedničku strast prema obrazovanju. Znanje koje smo stekli na fakultetu
-        postavilo nam je čvrste temelje za pružanje instrukcija iz različitih područja. Naša iskustva i stečeno znanje
-        potaknuli su nas na proširenje djelatnosti kako bismo olakšali učenje širem krugu učenika i studenata.<span
-          class="font-semibold text-gray-900 underline dark:text-white decoration-blue-500 text-md"> Odlučili
-          smo se posvetiti ovoj ideji, uloživši puno truda i vremena kako bismo ostvarili naš projekt -
-          vlastitu školu
-          poduka.</span>
-        <br />
+      <p class="text-sm mt-3 font-medium lg:text-xl tracking-tight text-primary"> <span class='text-base'>Što je
+          Parallel? 🔍</span>
+        <br>
+        Parallel je novo osnovana škola čiji je temeljni cilj olakšati učenje kroz organizaciju individualnih i grupnih
+        poduka, seminara, radionica i predavanja. Školu Parallel utemeljila su četiri mlada stručnjaka u Rijeci u želji
+        da svojim znanjem i iskustvom organiziraju učenje na pristupačan i zanimljiv način. Cilj nam je uz konstantno
+        unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja
+        za sve uzraste. 🤓
+      </p>
+      <p class="text-sm mt-3 font-medium lg:text-xl tracking-tight text-primary"> <br />
         Kroz godine školovanja, suočavali smo se s izazovima obrazovnog sustava i prepoznali njegove nedostatke. Ovim
         putem želimo pružiti pomoć svima koji se suočavaju s različitim preprekama, sličnim onima koje smo i sami
         prevladavali tokom obrazovnog procesa. Budući da smo mladi i svjesni, vjerujemo da možemo prenositi znanje na
-        jednostavan i zanimljiv način. <span
-          class="font-semibold text-gray-900 underline dark:text-white decoration-green-500 text-xl">Naš cilj je
-          unaprijediti
-          obrazovno iskustvo, čineći ga
-          pristupačnijim i uzbudljivijim za sve.</span>
-        <br />
-        <br>
-        <span class="font-semibold text-gray-900 underline dark:text-white decoration-red-200 text-sm">Škola Parallel
-          počela je s
-          radom u Rijeci 1. veljače 2022. godine.</span>
-      </p>
+        jednostavan i zanimljiv način. Naš cilj je
+        unaprijediti
+        obrazovno iskustvo, čineći ga
+        pristupačnijim i uzbudljivijim za sve.</p>
+
 
     </div>
     <div
