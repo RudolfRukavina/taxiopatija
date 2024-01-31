@@ -207,10 +207,10 @@
 
   <nav class="bg-white ">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-      <NuxtLink :to="{ path: '/', hash: '#top' }" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img
+      <NuxtLink :to="{ path: '/', hash: '#naslovnica' }" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <!-- <img
           src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-          alt="" class="h-9 w-9 rounded-full shadow-xl inline-block me-3 ring-1 ring-primary/5">
+          alt="" class="h-9 w-9 rounded-full shadow-xl inline-block me-3 ring-1 ring-primary/5"> -->
         <h1
           class=" text-2xl font-extrabold tracking-tight leading-none text-black drop-shadow-xl [text-shadow:_0_4px_0_rgb(0_0_0_/_10%)]  lg:text-4xl ">
           Poduke Parallel</h1>
@@ -227,7 +227,7 @@
       <div class="flex items-center">
         <ul class="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
           <li>
-            <NuxtLink :to="{ path: '/', hash: '#top' }" class="text-gray-900  hover:underline">Naslovnica
+            <NuxtLink :to="{ path: '/', hash: '#naslovnica' }" class="text-gray-900  hover:underline">Naslovnica
             </NuxtLink>
           </li>
           <li>

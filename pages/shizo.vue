@@ -278,9 +278,27 @@
 }
 
 .gradient {
-  background: linear-gradient(95deg, #0073fffb 0%, rgb(0, 186, 146) 100%);
+  background: linear-gradient(90deg, #00a2fffb 0%, rgb(0, 187, 90) 100%);
+  animation: rotateGradient 0.15s linear infinite;
 }
 
+@keyframes rotateGradient {
+  0% {
+    background: linear-gradient(90deg, #00a2fffb 0%, rgb(0, 187, 90) 100%);
+  }
+
+  30% {
+    background: linear-gradient(90deg, #00a2ffdc 0%, rgba(0, 187, 90, 0.859) 100%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, #0044ffdc 0%, rgba(56, 200, 126, 0.859) 100%);
+  }
+
+  100% {
+    background: linear-gradient(360deg, #00a2fffb 0%, rgb(0, 187, 90) 100%);
+  }
+}
 
 
 html {
