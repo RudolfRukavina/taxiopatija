@@ -7,7 +7,7 @@
   <!--Hero-->
 
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
-    <div class="pt-24">
+    <div class="pt-24" id='top'>
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
@@ -112,7 +112,7 @@
         </div>
       </div>
     </section>
-    <section class="gradient py-8 " id='pripreme'>
+    <section class="bg-gray-100 py-8 " id='pripreme'>
       <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Pripreme za državnu maturu
