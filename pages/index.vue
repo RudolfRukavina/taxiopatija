@@ -284,6 +284,6 @@
 
 
 html {
-  background: linear-gradient(90deg, #339ad5fb 0%, #51da63 100%);
+  background: linear-gradient(90deg, #00a2fffb 0%, rgb(0, 186, 149) 100%);
 }
 </style>
