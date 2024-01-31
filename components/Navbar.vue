@@ -205,7 +205,7 @@
 
 
 
-  <nav class="bg-slate-800 border-gray-200">
+  <nav class="bg-slate-700 border-gray-200">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
       <NuxtLink :to="{ path: '/', hash: '#top' }" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img
