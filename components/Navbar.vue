@@ -205,7 +205,7 @@
 
 
 
-  <nav class="bg-slate-700 border-gray-200">
+  <nav class="gradient border-gray-200">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
       <NuxtLink :to="{ path: '/', hash: '#top' }" class="flex items-center space-x-3 rtl:space-x-reverse">
         <img
@@ -411,6 +411,10 @@
 .router-link-exact-active {
   color: rgb(28, 28, 28);
   font-weight: 600;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #143b52 0%, #133518 100%);
 }
 </style>
 

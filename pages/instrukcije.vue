@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 border-b py-8 " id='instrukcije'>
+  <section class="gradient border-b py-8 " id='instrukcije'>
     <div class="container max-w-5xl mx-auto m-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Instrukcije
@@ -156,5 +156,9 @@
 <style scoped>
 .gradientline {
   background: linear-gradient(90deg, #d53369fb 0%, #daaf51 100%);
+}
+
+.gradient {
+  background: linear-gradient(90deg, #339ad55c 0%, #51da6324 100%);
 }
 </style>

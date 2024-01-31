@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 py-8 " id='pripreme'>
+  <section class="gradient py-8 " id='pripreme'>
     <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Pripreme za državnu maturu
@@ -127,6 +127,10 @@
 <style scoped>
 .gradientline {
   background: linear-gradient(90deg, #d53369fb 0%, #daaf51 100%);
+}
+
+.gradient {
+  background: linear-gradient(90deg, #339ad55c 0%, #51da6324 100%);
 }
 </style>
 
