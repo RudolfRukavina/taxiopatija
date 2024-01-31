@@ -217,7 +217,7 @@
       </NuxtLink>
       <div class="flex items-center space-x-6 rtl:space-x-reverse">
         <a href="tel:+385917865619"
-          class="text-3xl px-3 shadow-lg border-2 border-lime-700 bg-green-500 rounded-xl  text-black hover:underline"><i
+          class="text-3xl px-3  rounded-xl   text-black bg-gray-100 hover:bg-gray-200 hover:shadow-sm"><i
             class='fa fa-phone'></i></a>
       </div>
     </div>

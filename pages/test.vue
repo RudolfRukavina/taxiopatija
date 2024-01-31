@@ -450,7 +450,44 @@
       width="100%" height="100%" style="border:0;" allowfullscreen="" loading="async"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
+  <table class="max-w-sm border-2 border-slate-800 text-sm text-left rtl:text-right text-gray-500 ">
+    <thead class="text-xs  text-white uppercase bg-slate-800 ">
+      <tr>
+        <th scope="col" class="px-6 py-3">
+          Državna Matura
+        </th>
+        <th scope="col" class="px-6 py-3">
+          Broj školskih sati
+        </th>
+        <th scope="col" class="px-6 py-3">
+          Cijena
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700" v-for='item in programimature'
+        @click='addToCart(item)'>
 
+        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+          <p class=''>
+            {{ item.title }}
+          </p>
+          <p class='p-0 m-0'>
+            {{ item.razina }}
+          </p>
+
+        </th>
+        <td class="px-6 py-4">
+          {{ item.brojSati }}
+        </td>
+        <td class="px-6 py-4 text-nowrap whitespace-nowrap">
+          {{ item.cijena }} €
+        </td>
+      </tr>
+
+
+    </tbody>
+  </table>
   <section
     class="lg:row-span-2  dark:ring-white/10 ring-primary/5 hover:ring-primary/5 bg-white dark:bg-secondary  dark:hover:ring-white/20 overflow-hidden duration-300 shadow-xl dark:shadow-thick  p-8">
     <section class="bg-white">
