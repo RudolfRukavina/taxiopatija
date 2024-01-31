@@ -11,8 +11,8 @@
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p class="uppercase tracking-loose w-full">Dobrodošli!</p>
-          <h1 class="my-4 text-5xl font-bold leading-tight w-full">
+          <p class=" tracking-loose w-full">Dobrodošli na službenu stranicu</p>
+          <h1 class="mb-4  text-5xl font-bold leading-tight w-full">
             Poduke Parallel
           </h1>
           <p class="leading-normal text-xl mb-8">
@@ -278,7 +278,7 @@
 }
 
 .gradient {
-  background: linear-gradient(90deg, #339ad5fb 0%, #51da63 100%);
+  background: linear-gradient(90deg, #00a2fffb 0%, rgb(0, 186, 149) 100%);
 }
 
 
