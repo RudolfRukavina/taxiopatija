@@ -358,7 +358,7 @@
                     class='fa fa-instagram'> Instragram</i></a>
               </div>
               <div class="py-1">
-                <NuxtLink to='/radnovrijeme'
+                <NuxtLink :to="{ path: '/', hash: '#radnovrijeme' }"
                   class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                   <i class='fa fa-calendar'> Radno
                     vrijeme</i>

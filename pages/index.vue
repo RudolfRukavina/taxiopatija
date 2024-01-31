@@ -7,15 +7,15 @@
   <!--Hero-->
 
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
-    <div class="pt-24" id='top'>
+    <div class="pt-10 mx-1" id='top'>
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full">Dobrodošli!</p>
           <h1 class="my-4 text-5xl font-bold leading-tight w-full">
-            Parallel Poduke
+            Poduke Parallel
           </h1>
-          <p class="leading-normal text-2xl mb-8">
+          <p class="leading-normal text-xl mb-8">
             Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
           </p>
           <NuxtLink to="#usluge"
@@ -568,15 +568,18 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 mb-12" id='kontakt'>
+    <section class="container mx-auto text-center py-6 mb-12" id='radnovrijeme'>
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        Call to Action
+        Radno vrijeme
       </h2>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-3xl leading-tight">
-        Bez puno muke, uz Parallel poduke!
+        10:00 - 21:00
+      </h3>
+      <h3 class="my-4 text-3xl leading-tight">
+        Otvoreni smo svaki dan!
       </h3>
       <button
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
