@@ -57,10 +57,10 @@
               <h1 class="text-white font-semibold text-2xl" v-show='kosarica.length > 0'>Tvoj plan!</h1>
               <div v-show='kosarica.length > 0'>
                 <hr class="mt-4 py-2">
-                <div class="px-6 py-2 text-lg font-medium text-white  bg-green-50 rounded-xl  relative">
+                <div class="flex justify-center  text-lg font-medium text-white  bg-green-50  relative">
 
 
-                  <table class="max-w-sm border-2 border-slate-800 text-sm text-left rtl:text-right text-gray-500 ">
+                  <table class="w-full  border-slate-800 text-sm text-left rtl:text-right text-gray-500 ">
                     <thead class="text-xs  text-white uppercase bg-slate-800 ">
                       <tr>
                         <th scope="col" class="px-6 py-3">
