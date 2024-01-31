@@ -1,5 +1,5 @@
 <template>
-  <section class="gradient border-b py-8 " id='instrukcije'>
+  <section class="bg-gray-100 border-b py-8 " id='instrukcije'>
     <div class="container max-w-5xl mx-auto m-8">
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
         Instrukcije
@@ -18,7 +18,7 @@
           </p>
         </div>
         <div class="w-full flex justify-center p-1 px-5">
-          <table class="max-w-md w-full text-sm text-left rtl:text-right border-2 text-gray-500 dark:text-gray-400">
+          <table class="max-w-md w-full text-sm text-left rtl:text-right border-2 text-gray-500 border-slate-800">
             <thead class="text-xs text-white uppercase bg-slate-900 ">
               <tr>
                 <th scope="col" class=" py-3 text-base text-start px-6">
@@ -64,7 +64,7 @@
           </p>
         </div>
         <div class="w-full flex justify-center p-1 px-5">
-          <table class="max-w-md w-full text-sm text-left rtl:text-right border-2 text-gray-500 dark:text-gray-400">
+          <table class="max-w-md w-full text-sm text-left rtl:text-right border-2 text-gray-500 border-slate-800">
             <thead class="text-xs text-white uppercase bg-slate-900 ">
               <tr>
                 <th scope="col" class=" py-3 text-base text-start px-6">
@@ -110,7 +110,7 @@
           </p>
         </div>
         <div class="w-full flex justify-center p-1 px-5">
-          <table class="max-w-md w-full text-sm text-left rtl:text-right border-2 text-gray-500 dark:text-gray-400">
+          <table class="max-w-md w-full text-sm text-left rtl:text-right border-2 text-gray-500 border-slate-800">
             <thead class="text-xs text-white uppercase bg-slate-900 ">
               <tr>
                 <th scope="col" class=" py-3 text-base text-start px-6">

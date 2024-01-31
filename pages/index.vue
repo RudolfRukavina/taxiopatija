@@ -278,12 +278,12 @@
 }
 
 .gradient {
-  background: linear-gradient(90deg, #00a2fffb 0%, rgb(0, 186, 149) 100%);
+  background: linear-gradient(130deg, #0068a4fb 0%, rgb(0, 186, 149) 100%);
 }
 
 
 
 html {
-  background: linear-gradient(90deg, #00a2fffb 0%, rgb(0, 186, 149) 100%);
+  background: linear-gradient(130deg, #0068a4fb 0%, rgb(0, 186, 149) 100%);
 }
 </style>
