@@ -228,9 +228,8 @@
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #008e96, #00ccaa);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #009684, #00adcc);
+  background: linear-gradient(to right, #008e96, #00ccaa);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 </style>
 
