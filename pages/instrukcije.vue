@@ -331,6 +331,75 @@
   </body>
 </template>
 
+<script setup>
+  import { ref } from "vue"
+  import { onMounted } from 'vue'
+  import {
+    initAccordions,
+    initCarousels,
+    initCollapses,
+    initDials,
+    initDismisses,
+    initDrawers,
+    initDropdowns,
+    initModals,
+    initPopovers,
+    initTabs,
+    initTooltips
+  } from 'flowbite'
+
+  // initialize components based on data attribute selectors
+  onMounted(() => {
+    initAccordions();
+    initCarousels();
+    initCollapses();
+    initDials();
+    initDismisses();
+    initDrawers();
+    initDropdowns();
+    initModals();
+    initPopovers();
+    initTabs();
+    initTooltips();
+  })
+
+
+  useHead({
+    title: 'Poduke Parallel',
+    meta: [
+      { name: 'description', content: 'Učenje bez muke, uz Parallel poduke!' }
+    ],
+    bodyAttrs: {
+      class: 'test'
+    },
+    script: [{ innerHTML: 'console.log(\'Hello world\')' }]
+  })
+
+  useSeoMeta({
+    title: 'Poduke Parallel',
+    ogTitle: 'Poduke Parallel',
+    description: 'Učenje bez muke, uz Parallel poduke!',
+    ogDescription: 'Učenje bez muke, uz Parallel poduke!',
+    ogImage: 'https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=bxA5Hh4T6ckAX88V2Gs&_nc_ht=scontent.fzag3-1.fna&oh=00_AfARCAqb2ZR2XX9J9MuI7ssMLAWAP-QfWNL0bCGxH56x4Q&oe=65BDCC55',
+    twitterCard: 'summary_large_image',
+  })
+
+  // initialize components based on data attribute selectors
+  onMounted(() => {
+    initAccordions();
+    initCarousels();
+    initCollapses();
+    initDials();
+    initDismisses();
+    initDrawers();
+    initDropdowns();
+    initModals();
+    initPopovers();
+    initTabs();
+    initTooltips();
+  })
+
+</script>
 
 <style scoped>
 .gradientline {
