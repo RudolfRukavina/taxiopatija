@@ -195,7 +195,7 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 pb-10" id='radnovrijeme'>
+    <section class="container mx-auto text-center py-1 pb-10" id='radnovrijeme'>
       <h2 class="w-full my-2 text-3xl font-bold leading-tight text-center text-white">
         ✏️ Nisi siguran hoćeš li upisati željeni fakultet?
       </h2>
@@ -215,7 +215,7 @@
         </button>
       </a>
     </section>
-    <div class="relative -mt-12 lg:-mt-24">
+    <div class="relative -mt-12 lg:-mt-24 -my-[1px]">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
