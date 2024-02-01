@@ -6,7 +6,7 @@
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
           <p class=" tracking-loose w-full">Bez puno muke, uz Parallel poduke!</p>
-          <h1 class="mb-4  text-5xl font-bold leading-tight w-full">
+          <h1 class="mb-4  text-4xl lg:text-5xl font-bold leading-tight w-full">
             Pripreme za državnu maturu
           </h1>
           <p class="leading-normal text-xl mb-8">
@@ -195,7 +195,7 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 mb-12" id='radnovrijeme'>
+    <section class="container mx-auto text-center py-6" id='radnovrijeme'>
       <h2 class="w-full my-2 text-3xl font-bold leading-tight text-center text-white">
         ✏️ Nisi siguran hoćeš li upisati željeni fakultet?
       </h2>
@@ -208,10 +208,12 @@
       <h3 class="my-4 text-4xl leading-tight font-bold">
         Prijave do 11.03.2024.
       </h3>
-      <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Nazovite nas!
-      </button>
+      <a href="tel:+385917865619">
+        <button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Nazovite nas!
+        </button>
+      </a>
     </section>
   </body>
 </template>

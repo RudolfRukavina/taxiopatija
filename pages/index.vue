@@ -143,7 +143,7 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 mb-12" id='radnovrijeme'>
+    <section class="container mx-auto text-center py-6" id='radnovrijeme'>
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Radno vrijeme
       </h2>
@@ -156,10 +156,12 @@
       <h3 class="my-4 text-3xl leading-tight">
         Otvoreni smo svaki dan!
       </h3>
-      <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Nazovite nas!
-      </button>
+      <a href="tel:+385917865619">
+        <button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+          Nazovite nas!
+        </button>
+      </a>
     </section>
   </body>
 </template>
@@ -278,10 +280,39 @@
 }
 
 .gradient {
-  background: linear-gradient(95deg, #0073fffb 0%, rgb(0, 186, 146) 100%);
+  background: linear-gradient(90deg, #23A6D5, #23D5AB, #EE7752, #E73C7E);
+  animation: gradient 60s ease infinite;
+  background-size: 400% 400%;
+
 }
 
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
 
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 html {
   background: linear-gradient(90deg, #00a2fffb 0%, rgb(0, 186, 149) 100%);

@@ -347,7 +347,7 @@
                 <li>
                   <a href="tel:+385917865619"
                     class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
-                      class='fa fa-phone'>+385917865619</i></a>
+                      class='fa fa-phone'> +385917865619</i></a>
                 </li>
 
               </ul>
