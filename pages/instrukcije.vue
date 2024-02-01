@@ -298,25 +298,25 @@
       </g>
     </svg>
     <section class="container mx-auto text-center py-6" id='radnovrijeme'>
-      <h2 class="w-full my-2 text-3xl font-bold leading-tight text-center text-white">
+      <h2 class="w-full my-2 text-xl lg:text-3xl font-bold leading-tight text-center text-white">
         ✏️ Osnovna škola, bez puno bola!
       </h2>
       <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+        <div class="h-1 mx-auto bg-white w-2/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <h2 class="w-full my-2 text-3xl font-bold leading-tight text-center text-white">
+      <h2 class="w-full my-2 text-xl lg:text-3xl font-bold leading-tight text-center text-white">
         📚 Srednja škola, uz nas je ocjena bolja!
       </h2>
       <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+        <div class="h-1 mx-auto bg-white w-2/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <h2 class="w-full my-2 text-3xl font-bold leading-tight text-center text-white">
+      <h2 class="w-full my-2 text-lg lg:text-3xl font-bold leading-tight text-center text-white">
         💻 Fakultet, Fakultet, znanje nam širi svijet!
 
       </h2>
 
       <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+        <div class="h-1 mx-auto bg-white w-2/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
       <h3 class="my-4 text-xl px-3 leading-tight">
         Ukoliko imate više pitanja, slobodno nam se obratite. 🤓
