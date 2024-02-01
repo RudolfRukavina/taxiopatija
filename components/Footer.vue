@@ -80,9 +80,8 @@
         <div class="flex-1 mb-6 text-black">
           <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
             <!--Icon from: http://www.potlabicons.com/ -->
-            <img
-              src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
-              alt="" class="h-14 w-14 rounded shadow-xl inline-block me-3 ring-1 ring-primary/5">
+            <img src="../assets/logo.jpeg" alt=""
+              class="h-14 w-14 rounded shadow-xl inline-block me-3 ring-1 ring-primary/5">
 
           </a>
         </div>
