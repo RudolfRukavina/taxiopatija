@@ -53,7 +53,7 @@
         </g>
       </svg>
     </div>
-    <section class="content-section  bg-white py-16" id="usluge">
+    <section class="content-section  bg-white py-16 -my-[1px]" id="usluge">
       <div class="container mx-auto px-4 lg:px-5">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Usluge
@@ -146,7 +146,7 @@
         </g>
       </svg>
     </div>
-    <section class="container mx-auto text-center py-6 pb-10 " id='radnovrijeme'>
+    <section class="container mx-auto text-center py-1 pb-10 " id='radnovrijeme'>
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Radno vrijeme
       </h2>
