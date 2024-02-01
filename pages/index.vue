@@ -1,9 +1,9 @@
 <template>
-  <!-- <Head>
-      <Title>Parallel Poduke - Unaprijedite svoje učenje.</Title>
-      <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
-      <Style type="text/css" />
-    </Head> -->
+  <Head>
+    <Title>Parallel Poduke - Unaprijedite svoje učenje.</Title>
+    <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
+    <Style type="text/css" />
+  </Head>
   <!--Hero-->
 
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
