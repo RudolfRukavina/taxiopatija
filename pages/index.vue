@@ -119,7 +119,7 @@
 
 
     <!-- Change the colour #f8fafc to match the previous section colour -->
-    <div class="relative -mt-[1px]">
+    <div class="relative">
       <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -146,7 +146,7 @@
         </g>
       </svg>
     </div>
-    <section class="container mx-auto text-center py-6 pb-10 -mt-[1px]" id='radnovrijeme'>
+    <section class="container mx-auto text-center py-6 pb-10 " id='radnovrijeme'>
       <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Radno vrijeme
       </h2>
@@ -232,7 +232,7 @@
     bodyAttrs: {
       class: 'test'
     },
-    script: [{ innerHTML: 'console.log(\'Hello world\')' }]
+    script: []
   })
 
   useSeoMeta({
@@ -261,17 +261,6 @@
 
 
 
-  onMounted(() => {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  });
 
 
 </script>
