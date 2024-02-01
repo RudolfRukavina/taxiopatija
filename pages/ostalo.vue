@@ -8,13 +8,13 @@
           <h1 class="mb-4  text-5xl lg:text-6xl font-bold leading-tight w-full">
             Ostale usluge
           </h1>
-          <p class="leading-normal text-lg mb-8">
+          <p class="leading-normal text-lg text-center w-full md:w-auto mb-8">
             Tu smo da vam pomognemo!
           </p>
-          <NuxtLink to="#cjenik"
+          <a href="tel:+385917865619"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Nazovite nas!
-          </NuxtLink>
+          </a>
         </div>
         <!--Right Col-->
         <div class="w-full md:w-2/5 py-6 text-center">
