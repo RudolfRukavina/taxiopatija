@@ -65,8 +65,6 @@
                 data-carousel-slide-to="3"></button>
               <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
                 data-carousel-slide-to="4"></button>
-              <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
-                data-carousel-slide-to="5"></button>
             </div>
             <!-- Slider controls -->
             <button type="button"
