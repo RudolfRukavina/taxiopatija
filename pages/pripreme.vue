@@ -47,7 +47,7 @@
         </g>
       </svg>
     </div>
-    <section class="bg-white py-8 ">
+    <section class="bg-white py-8 -my-[1px] ">
       <div class="container mx-auto pt-4 pb-12 text-gray-800">
         <h2 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800">
           Kalkulator cijene
