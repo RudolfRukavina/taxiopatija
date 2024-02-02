@@ -1,7 +1,8 @@
 <template>
   <Head>
-    <Title>Pripreme - Cjenik</Title>
-    <Meta name="description" content="Uspješno savladajte gradivo neophodno za polaganje državne mature!" />
+    <Title>Poduke Parallel - Pripreme za državnu maturu</Title>
+    <Meta name="description"
+      content="Bez puno muke, uz Parallel poduke! Uspješno savladajte gradivo neophodno za polaganje državne mature!" />
     <Style type="text/css" />
   </Head>
 

@@ -1,7 +1,7 @@
 <template>
   <Head>
-    <Title>Instrukcije - Cjenik</Title>
-    <Meta name="description" content="Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
+    <Title>Poduke Parallel - Instrukcije</Title>
+    <Meta name="description" content="Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
             predmeta!" />
     <Style type="text/css" />
   </Head>

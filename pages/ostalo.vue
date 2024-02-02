@@ -1,7 +1,8 @@
 <template>
   <Head>
-    <Title>Ostale usluge</Title>
-    <Meta name="description" content="Tu smo da vam pomognemo!" />
+    <Title>Poduke Parallel - Ostale usluge</Title>
+    <Meta name="description"
+      content="Tu smo da vam pomognemo! Nudimo usluge pomoći u pisanju zadaća, seminara, projekata i lektira! Također nudimo usluge pripreme za natjecanja, organizacije seminara te edukacije iz različitih područja!" />
     <Style type="text/css" />
   </Head>
 

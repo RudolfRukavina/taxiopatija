@@ -1,7 +1,8 @@
 <template>
   <Head>
-    <Title>Parallel Poduke - Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.</Title>
-    <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
+    <Title>Parallel Poduke - Naslovnica</Title>
+    <Meta name="description" content="Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
+            predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke! " />
     <Style type="text/css" />
   </Head>
   <!--Hero-->
