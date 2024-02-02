@@ -250,16 +250,13 @@
 
 <style scoped>
 .gradientline {
-  background: linear-gradient(90deg, #d53369fb 0%, #daaf51 100%);
+  background: linear-gradient(to right, rgba(0, 62, 150, 0.875), #8f00cce0);
 }
 
 .gradient {
   background: #00B4DB;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #008e96, #00ccaa);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #008e96, #00ccaa);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, rgba(0, 62, 150, 0.875), #8f00cce0);
+  background: linear-gradient(to right, rgba(0, 62, 150, 0.875), #8f00cce0);
 }
 </style>
 

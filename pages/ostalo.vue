@@ -7,7 +7,7 @@
   </Head>
 
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
-    <div class="py-10 mx-1" id='naslovnica'>
+    <div class="py-10 mx-1" id='naslovnica' idk>
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-3/5 justify-center items-start text-center md:text-left">
@@ -54,18 +54,20 @@
         </g>
       </svg>
     </div>
-
   </body>
 </template>
 
+<script setup>
+</script>
+
 <style scoped>
 .gradientline {
-  background: linear-gradient(90deg, #d53369fb 0%, #daaf51 100%);
+  background: linear-gradient(to right, rgba(0, 45, 150, 0.875), #3d00cce0);
 }
 
 .gradient {
   background: #00B4DB;
-  background: -webkit-linear-gradient(to right, #008e96, #00ccaa);
-  background: linear-gradient(to right, #008e96, #00ccaa);
+  background: -webkit-linear-gradient(to right, rgba(0, 45, 150, 0.875), #3d00cce0);
+  background: linear-gradient(to right, rgba(62, 0, 150, 0.862), rgba(0, 65, 204, 0.878));
 }
 </style>
