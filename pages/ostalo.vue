@@ -1,4 +1,10 @@
 <template>
+  <Head>
+    <Title>Ostale usluge</Title>
+    <Meta name="description" content="Tu smo da vam pomognemo!" />
+    <Style type="text/css" />
+  </Head>
+
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <div class="py-10 mx-1" id='naslovnica'>
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">

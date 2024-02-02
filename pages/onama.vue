@@ -1,4 +1,12 @@
 <template>
+  <Head>
+    <Title>O nama</Title>
+    <Meta name="description" content="Cilj nam je uz konstantno
+          unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja
+          za sve uzraste." />
+    <Style type="text/css" />
+  </Head>
+
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <div class="py-10 mx-1" id='naslovnica'>
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">

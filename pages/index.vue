@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Parallel Poduke - Unaprijedite svoje učenje.</Title>
+    <Title>Naslovnica</Title>
     <Meta name="description" content="Bez puno muke uz Parallel Poduke " />
     <Style type="text/css" />
   </Head>

@@ -1,4 +1,11 @@
 <template>
+  <Head>
+    <Title>Instrukcije - Cjenik</Title>
+    <Meta name="description" content="Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
+            predmeta!" />
+    <Style type="text/css" />
+  </Head>
+
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
     <div class="py-10 mx-1" id='naslovnica'>

@@ -1,4 +1,10 @@
 <template>
+  <Head>
+    <Title>Pripreme - Cjenik</Title>
+    <Meta name="description" content="Uspješno savladajte gradivo neophodno za polaganje državne mature!" />
+    <Style type="text/css" />
+  </Head>
+
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
     <div class="py-10 mx-1" id='cjenik'>
