@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Poduke Parallel - Pripreme za državnu maturu</Title>
+    <Title>Pripreme za državnu maturu | Poduke Parallel</Title>
     <Meta name="description"
       content="Bez puno muke, uz Parallel poduke! Uspješno savladajte gradivo neophodno za polaganje državne mature!" />
     <Style type="text/css" />

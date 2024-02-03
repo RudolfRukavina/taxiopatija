@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Poduke Parallel - Instrukcije</Title>
+    <Title>Instrukcije | Poduke Parallel</Title>
     <Meta name="description" content="Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
             predmeta!" />
     <Style type="text/css" />
@@ -408,12 +408,12 @@
   })
 
   useSeoMeta({
-    title: 'Poduke Parallel',
+    title: 'Instrukcije | Poduke Parallel',
     ogTitle: 'Poduke Parallel',
-    description: 'Učenje bez muke, uz Parallel poduke!',
-    ogDescription: 'Učenje bez muke, uz Parallel poduke!',
-    ogImage: 'https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=bxA5Hh4T6ckAX88V2Gs&_nc_ht=scontent.fzag3-1.fna&oh=00_AfARCAqb2ZR2XX9J9MuI7ssMLAWAP-QfWNL0bCGxH56x4Q&oe=65BDCC55',
-    twitterCard: 'summary_large_image',
+    description: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
+    ogDescription: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
+    ogImage: '../assets/img/instrukcijecjenik.png',
+    twitterCard: '../assets/img/instrukcijecjenik.png',
   })
 
   // initialize components based on data attribute selectors
