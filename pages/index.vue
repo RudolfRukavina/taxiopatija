@@ -239,10 +239,10 @@
   useSeoMeta({
     title: 'Poduke Parallel',
     ogTitle: 'Poduke Parallel',
-    description: 'Učenje bez muke, uz Parallel poduke!',
-    ogDescription: 'Učenje bez muke, uz Parallel poduke!',
-    ogImage: 'https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=bxA5Hh4T6ckAX88V2Gs&_nc_ht=scontent.fzag3-1.fna&oh=00_AfARCAqb2ZR2XX9J9MuI7ssMLAWAP-QfWNL0bCGxH56x4Q&oe=65BDCC55',
-    twitterCard: 'summary_large_image',
+    description: 'Učenje bez muke, uz Parallel poduke! Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke!',
+    ogDescription: 'Učenje bez muke, uz Parallel poduke! Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke!',
+    ogImage: '../assets/img/ogpoduke.jpeg',
+    twitterCard: '../assets/img/ogpoduke.jpeg',
   })
 
   // initialize components based on data attribute selectors
