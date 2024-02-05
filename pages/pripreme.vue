@@ -269,11 +269,9 @@
     const existingItemIndex = kosarica.value.findIndex(item => item.title === program.title);
 
     if (existingItemIndex !== -1) {
-      // Item already in the cart, remove it
       kosarica.value.splice(existingItemIndex, 1);
     }
 
-    // Add the new item to the cart
     kosarica.value.push({ ...program, quantity: 1 });
     selectedPriprema.value = null;
   };
@@ -284,9 +282,6 @@
       kosarica.value.splice(index, 1);
     }
   };
-
-
-
 
   const totalAmount = computed(() => {
     return kosarica.value.reduce((total, item) => total + parseFloat(item.cijena) * item.quantity, 0);
@@ -299,11 +294,11 @@
   const discountPercentage = computed(() => {
     const selectedCount = kosarica.value.length;
     if (selectedCount === 2) {
-      return 0.1; // 10% discount for 2 selected items
+      return 0.1;
     } else if (selectedCount >= 3) {
-      return 0.2; // 20% discount for 3 or more selected items
+      return 0.2;
     }
-    return 0; // No discount if less than 2 selected items
+    return 0;
   });
 
   const discountedTotalAmount = computed(() => {

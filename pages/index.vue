@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <Title>Parallel Poduke - Naslovnica</Title>
+    <Title>Naslovnica | Poduke Parallel</Title>
     <Meta name="description" content="Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
             predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke! " />
     <Style type="text/css" />
