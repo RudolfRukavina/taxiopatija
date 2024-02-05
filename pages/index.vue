@@ -4,9 +4,6 @@
     <Meta name="description" content="Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
             predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke! " />
     <Style type="text/css" />
-    <img
-      src='https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=tE_wpawNL4kAX9GyzDx&_nc_ht=scontent.fzag3-1.fna&oh=00_AfBkGnVM38X-D7-m6IuBugqorWq_5Q3J1VTUH1gAQ4Q_qQ&oe=65C3BB15'
-      alt='parallel' width='600'>
   </Head>
   <!--Hero-->
 
@@ -71,7 +68,7 @@
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
-                    <div class="text-2xl">Pripreme za državnu maturu</div>
+                    <h2 class="text-2xl">Pripreme za državnu maturu</h2>
                   </div>
                 </div>
               </div>
@@ -83,7 +80,7 @@
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
-                    <div class="text-2xl">Instrukcije</div>
+                    <h2 class="text-2xl">Instrukcije</h2>
                   </div>
                 </div>
               </div>
@@ -108,7 +105,7 @@
               <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
-                    <div class="text-2xl">Ostale usluge</div>
+                    <h2 class="text-2xl">Ostale usluge</h2>
                   </div>
                 </div>
               </div>
@@ -151,9 +148,9 @@
       </svg>
     </div>
     <section class="container mx-auto text-center py-1 pb-10 " id='radnovrijeme'>
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+      <h3 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
         Radno vrijeme
-      </h2>
+      </h3>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
