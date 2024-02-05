@@ -61,13 +61,13 @@
 </script>
 
 <style scoped>
-.gradientline {
-  background: linear-gradient(to right, rgba(0, 45, 150, 0.875), #3d00cce0);
-}
-
 .gradient {
-  background: #00B4DB;
-  background: -webkit-linear-gradient(to right, rgba(0, 45, 150, 0.875), #3d00cce0);
-  background: linear-gradient(to right, rgba(62, 0, 150, 0.862), rgba(0, 65, 204, 0.878));
+  background: #00c6ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 </style>
