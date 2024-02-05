@@ -105,7 +105,7 @@
               <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
-                    <h class="text-2xl">Ostale usluge</h>
+                    <h3 class="text-2xl">Ostale usluge</h3>
                   </div>
                 </div>
               </div>
