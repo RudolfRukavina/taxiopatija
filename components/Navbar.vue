@@ -211,9 +211,9 @@
         <!-- <img
           src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
           alt="" class="h-9 w-9 rounded-full shadow-xl inline-block me-3 ring-1 ring-primary/5"> -->
-        <h1
+        <title
           class=" text-2xl font-extrabold tracking-tight leading-none text-black drop-shadow-xl [text-shadow:_0_4px_0_rgb(0_0_0_/_10%)]  lg:text-4xl ">
-          Poduke Parallel</h1>
+          Poduke Parallel</title>
       </NuxtLink>
       <div class="flex items-center space-x-6 rtl:space-x-reverse">
         <a href="tel:+385917865619"
