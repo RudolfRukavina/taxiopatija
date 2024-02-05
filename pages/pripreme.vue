@@ -83,8 +83,8 @@
                 <tr class="bg-white border-b border-gray-200   hover:bg-lime-50" v-for='item in programimature'
                   v-show='!isInCart(item)' @click='addToCart(item)'>
 
-                  <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">
-                    <p class=''>
+                  <th scope="row" class="px-6 py-4 font-medium  whitespace-nowrap text-blue-600 ">
+                    <p class='underline font-bold'>
                       {{ item.title }}
                     </p>
                     <p class='p-0 m-0'>
@@ -172,7 +172,18 @@
           </div>
         </div>
 
-
+        <div class='w-full text-center px-5'>
+          <li class="mt-1 text-sm text-zinc-500 dark:text-zinc-400 font-light lg:text-base underline">Moguće je obročno
+            plaćanje paketa
+            priprema za državnu maturu.</li>
+          <li class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme
+            za
+            državnu maturu iz dva predmeta odobravamo <span class='font-bold'> 10% popusta</span>.</li>
+          <li class="mt-1 text-[12px] text-zinc-500 dark:text-zinc-400 font-light lg:text-base">Ukoliko upišete pripreme
+            za
+            državnu maturu iz tri ili više predmeta odobravamo <span class='font-bold lg:text-lg'> 20% popusta</span>.
+          </li>
+        </div>
       </div>
     </section>
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg"
