@@ -14,18 +14,7 @@ export default defineNuxtConfig({
     modules: [
     '@nuxtjs/tailwindcss',
       'nuxt-swiper',
-      '@nuxtjs/sitemap',
-      '@nuxtjs/seo',
-      'nuxt-simple-robots',
-      'nuxt-og-image',
   ],
-      sitemap: {
-    path: '/sitemap.xml', // The path where the sitemap will be generated
-    hostname: 'https://poduke.vercel.app/', // Your website's URL
-    cacheTime: 1000 * 60 * 15, // How long to cache the sitemap in milliseconds (optional)
-    gzip: true, // Enable gzip compression for the generated sitemap (optional)
-    exclude: [], // Array of URLs to exclude from the sitemap (optional)
-  },
     tailwindcss: {
         cssPath: '~/assets/css/input.css'
     }
