@@ -14,7 +14,6 @@
     "@nuxtjs/sitemap": "^5.1.0",
     "@nuxtjs/tailwindcss": "^6.11.1",
     "nuxt": "^3.10.0",
-    "nuxt-og-image": "^3.0.0-rc.37",
     "nuxt-simple-robots": "^4.0.0-rc.14",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
