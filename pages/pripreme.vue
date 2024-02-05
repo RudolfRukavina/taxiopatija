@@ -60,7 +60,7 @@
           Kalkulator cijene
         </h2>
         <div class="w-full mb-4" id='mojplanzamaturu'>
-          <div class="h-1 mx-auto gradientline w-64 opacity-25 my-0 py-0 rounded-t"></div>
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
 
         <div class="relative  flex justify-center">
@@ -247,14 +247,14 @@
 </template>
 
 <style scoped>
-.gradientline {
-  background: linear-gradient(to right, rgba(0, 62, 150, 0.875), #8f00cce0);
-}
-
 .gradient {
-  background: #00B4DB;
-  background: -webkit-linear-gradient(to right, rgba(0, 62, 150, 0.875), #8f00cce0);
-  background: linear-gradient(to right, rgba(0, 62, 150, 0.875), #8f00cce0);
+  background: #667db6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 </style>
 

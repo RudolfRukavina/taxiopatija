@@ -434,16 +434,13 @@
 </script>
 
 <style scoped>
-.gradientline {
-  background: linear-gradient(to right, rgba(85, 150, 0, 0.862), #00bbcce0);
-}
-
 .gradient {
-  background: #00B4DB;
+  background: #000046;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, rgba(85, 150, 0, 0.862), #00bbcce0);
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(85, 150, 0, 0.862), #00bbcce0);
+  background: linear-gradient(to right, #1CB5E0, #000046);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 </style>
