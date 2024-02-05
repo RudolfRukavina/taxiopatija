@@ -7,15 +7,19 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-con', href: './public/favicon.ico'}],
     },
   },
-  ssr: false,
-
+    robots: {
+    mergeWithRobotsTxtPath: './public/_robots.txt'
+  },
+    ssr: false,
     modules: [
     '@nuxtjs/tailwindcss',
       'nuxt-swiper',
       '@nuxtjs/sitemap',
+      '@nuxtjs/seo',
+      'nuxt-simple-robots',
+      'nuxt-og-image',
   ],
       sitemap: {
-
     path: '/sitemap.xml', // The path where the sitemap will be generated
     hostname: 'https://poduke.vercel.app/', // Your website's URL
     cacheTime: 1000 * 60 * 15, // How long to cache the sitemap in milliseconds (optional)

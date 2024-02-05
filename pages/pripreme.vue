@@ -149,8 +149,6 @@
                               @click='removeFromCart(item)'> <i class="fa fa-ban"></i></div>
                           </td>
                         </tr>
-
-
                       </tbody>
                     </table>
                   </div>
