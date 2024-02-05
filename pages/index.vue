@@ -13,9 +13,9 @@
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <p class=" tracking-loose w-full">Dobrodošli na službenu stranicu</p>
-          <h1 class="mb-4  text-5xl font-bold leading-tight w-full">
+          <h2 class="mb-4  text-5xl font-bold leading-tight w-full">
             Poduke Parallel
-          </h1>
+          </h2>
           <p class="leading-normal text-xl mb-8">
             Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku.
           </p>
@@ -68,7 +68,7 @@
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
-                    <h2 class="text-2xl">Pripreme za državnu maturu</h2>
+                    <h3 class="text-2xl">Pripreme za državnu maturu</h3>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@
               <div class="absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
-                    <h2 class="text-2xl">Instrukcije</h2>
+                    <h3 class="text-2xl">Instrukcije</h3>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@
               <div class=" absolute inset-0 bg-black bg-opacity-50 transition-opacity lg:opacity-0 hover:opacity-100">
                 <div class="caption absolute inset-0 flex items-center justify-center">
                   <div class="text-white text-center">
-                    <h2 class="text-2xl">Ostale usluge</h2>
+                    <h class="text-2xl">Ostale usluge</h>
                   </div>
                 </div>
               </div>
