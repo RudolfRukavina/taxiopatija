@@ -4,6 +4,9 @@
     <Meta name="description" content="Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih
             predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke! " />
     <Style type="text/css" />
+    <img
+      src='https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=tE_wpawNL4kAX9GyzDx&_nc_ht=scontent.fzag3-1.fna&oh=00_AfBkGnVM38X-D7-m6IuBugqorWq_5Q3J1VTUH1gAQ4Q_qQ&oe=65C3BB15'
+      alt='parallel' width='600'>
   </Head>
   <!--Hero-->
 
