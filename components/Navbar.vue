@@ -334,9 +334,9 @@
               class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <a href="mailto:poduke@parallel.hr"
+                  <a href="mailto:info@parallel.hr"
                     class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
-                      class='fa fa-envelope'> poduke@parallel.hr</i></a>
+                      class='fa fa-envelope'> info@parallel.hr</i></a>
                 </li>
                 <li>
                   <a href="https://maps.app.goo.gl/9dFa9f6sUkVuHxRD9" target='_blank'
