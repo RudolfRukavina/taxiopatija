@@ -366,6 +366,7 @@
   </ClientOnly>
 </template>
 
+
 <script setup>
   import { ref } from "vue"
   import { onMounted } from 'vue'
@@ -423,20 +424,7 @@
     twitterCard: '../public/instrukcijecjenik.png',
   })
 
-  // initialize components based on data attribute selectors
-  onMounted(() => {
-    initAccordions();
-    initCarousels();
-    initCollapses();
-    initDials();
-    initDismisses();
-    initDrawers();
-    initDropdowns();
-    initModals();
-    initPopovers();
-    initTabs();
-    initTooltips();
-  })
+
 
 </script>
 
