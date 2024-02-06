@@ -213,23 +213,60 @@
     </svg>
     <section class="container mx-auto text-center py-1 pb-10" id='radnovrijeme'>
       <h2 class="w-full my-2 text-3xl font-bold leading-tight text-center text-white">
-        ✏️ Nisi siguran hoćeš li upisati željeni fakultet?
+        ✏️ Prijave traju do 11.03.2024.
       </h2>
       <div class="w-full mb-4">
         <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
       </div>
-      <h3 class="my-4 text-xl px-3 leading-tight">
-        Riješi maturu bez muke uz Parallel poduke i na vrijeme kreni s pripremama kako bi izbjegao/la nepotreban stres! 📚
-      </h3>
-      <h3 class="my-4 text-4xl leading-tight font-bold">
-        Prijave do 11.03.2024.
-      </h3>
+
       <a href="tel:+385917865619">
         <button
           class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
           Nazovite nas!
         </button>
       </a>
+    </section>
+    <section class="bg-sky-50 rounded-2xl grid grid-cols-1 p-5 mb-20 mt-5 mx-10 shadow-lg ">
+      <div class="py-0 px-4 ">
+        <p class="mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">ili nam pošaljite
+          e-mail!</p>
+        <form action="#" class="space-y-8">
+          <div>
+            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Vaše ime</label>
+            <input type="text" id="name" v-model='clientName'
+              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              required>
+          </div>
+          <div>
+            <label for="tel" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Vaš broj
+              telefona</label>
+            <input type="tel" id="tel" v-model='phoneNumber'
+              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              required>
+          </div>
+          <div>
+            <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Predmet</label>
+            <input type="text" id="subject" value='Pripreme za državnu maturu | Poduke Parallel'
+              class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder="" required>
+          </div>
+          <div class="sm:col-span-2">
+            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Vaša
+              poruka</label>
+            <textarea id="message" rows="10" v-model="selectedItemsText"
+              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder=""></textarea>
+
+          </div>
+
+          <a :href="generateMailtoLink()" v-show='clientName && phoneNumber'>
+            <div
+              class="text-center max-w-sm  hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Pošaljite e-mail
+            </div>
+          </a>
+        </form>
+      </div>
     </section>
     <div class="relative -mt-12 lg:-mt-24 -my-[1px]">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -272,9 +309,24 @@
 <script setup>
   import { ref } from "vue"
 
+
   const selectedPriprema = ref()
   const kosarica = ref([])
 
+
+  const generateMailtoLink = () => {
+    const recipient = 'rudi.rukavina@gmail.com';  // Change this to your email address
+    const subject = 'Upit za pripreme za državnu maturu';
+    const body = selectedItemsText.value;  // Use the computed property for the email body
+
+    // Encode the components for a valid mailto link
+    const encodedRecipient = encodeURIComponent(recipient);
+    const encodedSubject = encodeURIComponent(subject);
+    const encodedBody = encodeURIComponent(body);
+
+    // Build the mailto link
+    return `mailto:${encodedRecipient}?subject=${encodedSubject}&body=${encodedBody}`;
+  };
 
   const addToCart = (program) => {
     const existingItemIndex = kosarica.value.findIndex(item => item.title === program.title);
@@ -310,6 +362,16 @@
       return 0.2;
     }
     return 0;
+  });
+
+  const phoneNumber = ref("")
+  const clientName = ref("")
+
+
+  const selectedItemsText = computed(() => {
+    const salutation = 'Poštovani, zanimaju me Vaše usluge priprema za državnu maturu iz predmeta:';
+    const itemsText = kosarica.value.map(item => `${item.title} ${item.razina}`).join('\n');
+    return `${salutation}\n\n${itemsText}\n\n${clientName.value}, ${phoneNumber.value}`;
   });
 
   const discountedTotalAmount = computed(() => {
@@ -351,16 +413,19 @@
     },
     {
       title: 'HRVATSKI',
+      razina: '',
       brojSati: '60',
       cijena: '360,00'
     },
     {
       title: 'FIZIKA',
+      razina: '',
       brojSati: '60',
       cijena: '360,00'
     },
     {
       title: 'KEMIJA',
+      razina: '',
       brojSati: '60',
       cijena: '360,00'
     },
