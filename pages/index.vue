@@ -225,7 +225,7 @@
   })
 
 
-  useHead({
+  /* useHead({
     title: 'Poduke Parallel',
     meta: [
       { name: 'description', content: 'Učenje bez muke, uz Parallel poduke! Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke!' },
@@ -240,16 +240,16 @@
       class: ''
     },
     script: []
-  })
+  }) */
 
-  useSeoMeta({
+  /* useSeoMeta({
     title: 'Poduke Parallel',
     ogTitle: 'Poduke Parallel',
     description: 'Učenje bez muke, uz Parallel poduke! Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke!',
     ogDescription: 'Učenje bez muke, uz Parallel poduke! Unaprijedite svoje učenje kroz naše iskustvo, poticaj i konstantnu podršku. Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta. Uspješno savladajte gradivo neophodno za polaganje državne mature uz Parallel poduke!',
     ogImage: 'https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=tE_wpawNL4kAX9GyzDx&_nc_ht=scontent.fzag3-1.fna&oh=00_AfBkGnVM38X-D7-m6IuBugqorWq_5Q3J1VTUH1gAQ4Q_qQ&oe=65C3BB15',
     twitterCard: 'https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272268092_113057891271813_5228490678392803109_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=c83dfd&_nc_ohc=tE_wpawNL4kAX9GyzDx&_nc_ht=scontent.fzag3-1.fna&oh=00_AfBkGnVM38X-D7-m6IuBugqorWq_5Q3J1VTUH1gAQ4Q_qQ&oe=65C3BB15',
-  })
+  }) */
 
   // initialize components based on data attribute selectors
   onMounted(() => {
