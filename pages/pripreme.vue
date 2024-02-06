@@ -211,7 +211,7 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-1 pb-10" id='radnovrijeme'>
+    <section class="container mx-auto text-center py-1" id='radnovrijeme'>
       <h2 class="w-full my-2 text-3xl font-bold leading-tight text-center text-white">
         ✏️ Prijave traju do 11.03.2024.
       </h2>
@@ -226,40 +226,42 @@
         </button>
       </a>
     </section>
-    <section class="bg-sky-50 rounded-2xl grid grid-cols-1 p-5 mb-20 mt-5 mx-10 shadow-lg ">
-      <div class="py-0 px-4 ">
-        <p class="mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">ili nam pošaljite
-          e-mail!</p>
-        <form action="#" class="space-y-8">
-          <div>
-            <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Vaše ime</label>
-            <input type="text" id="name" v-model='clientName'
-              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-              required>
-          </div>
-          <div>
-            <label for="tel" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Vaš broj
-              telefona</label>
-            <input type="tel" id="tel" v-model='phoneNumber'
-              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-              required>
-          </div>
-          <div class="sm:col-span-2">
-            <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Vaša
-              poruka</label>
-            <textarea id="message" rows="10" v-model="selectedItemsText"
-              class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-              placeholder=""></textarea>
-
-          </div>
-
-          <a :href="generateMailtoLink()" v-show='clientName && phoneNumber'>
-            <div
-              class="text-center max-w-sm  hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-              Pošaljite e-mail
+    <section class="bg-sky-50 rounded-2xl flex justify-center p-5 mb-20 max-w-sm mx-auto shadow-lg ">
+      <div class='grid grid-cols-1 w-full'>
+        <div class="py-0 px-4 ">
+          <p class="mb-4 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">ili nam pošaljite
+            e-mail!</p>
+          <form action="#" class="space-y-8">
+            <div>
+              <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Vaše ime</label>
+              <input type="text" id="name" v-model='clientName'
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                required>
             </div>
-          </a>
-        </form>
+            <div>
+              <label for="tel" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Vaš broj
+                telefona</label>
+              <input type="tel" id="tel" v-model='phoneNumber'
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                required>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Vaša
+                poruka</label>
+              <textarea id="message" rows="10" v-model="selectedItemsText"
+                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                placeholder=""></textarea>
+
+            </div>
+
+            <a :href="generateMailtoLink()" v-show='clientName && phoneNumber'>
+              <div
+                class="text-center max-w-sm  hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                Pošaljite e-mail
+              </div>
+            </a>
+          </form>
+        </div>
       </div>
     </section>
     <div class="relative -mt-12 lg:-mt-24 -my-[1px]">
@@ -362,8 +364,8 @@
 
   const selectedItemsText = computed(() => {
     const salutation = 'Poštovani, zanimaju me Vaše usluge priprema za državnu maturu iz predmeta:';
-    const itemsText = kosarica.value.map(item => `${item.title} ${item.razina}`).join('\n');
-    return `${salutation}\n\n${itemsText}\n\n${clientName.value}, ${phoneNumber.value}`;
+    const itemsText = kosarica.value.map(item => `- ${item.title} ${item.razina}`).join('\n');
+    return `${salutation}\n\n${itemsText}\n\n${clientName.value ? 'Lijep pozdrav, \n' + clientName.value + ',' : ""} \n${phoneNumber.value ? 'Moj broj telefona: ' + phoneNumber.value : ""}`;
   });
 
   const discountedTotalAmount = computed(() => {
