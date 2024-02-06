@@ -315,16 +315,14 @@
 
 
   const generateMailtoLink = () => {
-    const recipient = 'rudi.rukavina@gmail.com';  // Change this to your email address
+    const recipient = 'info@parallel.hr';
     const subject = 'Upit za pripreme za državnu maturu';
-    const body = selectedItemsText.value;  // Use the computed property for the email body
+    const body = selectedItemsText.value;
 
-    // Encode the components for a valid mailto link
     const encodedRecipient = encodeURIComponent(recipient);
     const encodedSubject = encodeURIComponent(subject);
     const encodedBody = encodeURIComponent(body);
 
-    // Build the mailto link
     return `mailto:${encodedRecipient}?subject=${encodedSubject}&body=${encodedBody}`;
   };
 
