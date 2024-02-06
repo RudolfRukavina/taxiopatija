@@ -1,10 +1,8 @@
 <template>
   <Head>
     <Title>O nama | Poduke Parallel</Title>
-    <Meta name="description" content=" Parallel je novo osnovana škola čiji je temeljni cilj olakšati učenje kroz organizaciju individualnih i grupnih
-          poduka, seminara, radionica i predavanja. Cilj nam je uz konstantno
-          unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja
-          za sve uzraste." />
+    <Meta name="description"
+      content=" Parallel je novo osnovana škola čiji je temeljni cilj olakšati učenje kroz organizaciju individualnih i grupnih poduka, seminara, radionica i predavanja. Cilj nam je uz konstantno unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja za sve uzraste." />
     <Style type="text/css" />
   </Head>
 

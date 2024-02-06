@@ -416,11 +416,11 @@
 
   useSeoMeta({
     title: 'Instrukcije | Poduke Parallel',
-    ogTitle: 'Poduke Parallel',
+    ogTitle: 'Instrukcije | Poduke Parallel',
     description: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
     ogDescription: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
-    ogImage: '../assets/img/instrukcijecjenik.png',
-    twitterCard: '../assets/img/instrukcijecjenik.png',
+    ogImage: '../public/instrukcijecjenik.png',
+    twitterCard: '../public/instrukcijecjenik.png',
   })
 
   // initialize components based on data attribute selectors
