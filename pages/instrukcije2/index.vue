@@ -7,7 +7,7 @@
         src="https://scontent.fzag3-1.fna.fbcdn.net/v/t39.30808-6/272338202_113056497938619_320687629502909542_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9wXAN7h9bvgAX-pR4xl&_nc_ht=scontent.fzag3-1.fna&oh=00_AfCR3qUECwUDTIRxDViCvXSlKM5SyyKXLdex11XY1yLJWw&oe=65BBA156"
         alt="" class="h-10 w-10 rounded-full ring-1 ring-primary/5">
       <div class="text-lg leading-6">
-        <p class="font-semibold text-4xl text-primary "> <a href="#"> <span class="absolute inset-0"></span>
+        <p class="font-semibold text-4xl text-primary "> <a href="#">
             Poduke Parallel
           </a> </p>
         <h2 class="text-zinc-500 text-2xl">
