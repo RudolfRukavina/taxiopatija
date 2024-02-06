@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     robots: {
     mergeWithRobotsTxtPath: './public/_robots.txt'
   },
-    ssr: false,
+
     modules: [
     '@nuxtjs/tailwindcss',
       'nuxt-swiper',
