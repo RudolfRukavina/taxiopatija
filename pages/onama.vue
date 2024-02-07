@@ -2,7 +2,7 @@
   <Head>
     <Title>O nama | Poduke Parallel</Title>
     <Meta name="description"
-      content=" Parallel je novo osnovana škola čiji je temeljni cilj olakšati učenje kroz organizaciju individualnih i grupnih poduka, seminara, radionica i predavanja. Cilj nam je uz konstantno unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja za sve uzraste." />
+      content="Parallel je novo osnovana škola čiji je temeljni cilj olakšati učenje kroz organizaciju individualnih i grupnih poduka, seminara, radionica i predavanja. Cilj nam je uz konstantno unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja za sve uzraste." />
     <Style type="text/css" />
   </Head>
 
@@ -263,6 +263,18 @@
     </body>
   </ClientOnly>
 </template>
+
+<script setup>
+  useSeoMeta({
+    title: 'O nama | Poduke Parallel',
+    ogTitle: 'O nama | Poduke Parallel',
+    description: 'Parallel je novo osnovana škola čiji je temeljni cilj olakšati učenje kroz organizaciju individualnih i grupnih poduka, seminara, radionica i predavanja. Cilj nam je uz konstantno unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja za sve uzraste.',
+    ogDescription: 'Parallel je novo osnovana škola čiji je temeljni cilj olakšati učenje kroz organizaciju individualnih i grupnih poduka, seminara, radionica i predavanja. Cilj nam je uz konstantno unaprijeđivanje usluga i praćenje najnovijih trendova omogućiti obrazovanje i poučavanje iz raznovrsnih područja za sve uzraste.',
+    ogImage: 'https://poduke.vercel.app/ucionica.jpeg',
+    twitterCard: 'https://poduke.vercel.app/ucionica.jpeg',
+  })
+
+</script>
 
 <style scoped>
 .gradient {

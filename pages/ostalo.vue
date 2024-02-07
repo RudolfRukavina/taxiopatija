@@ -61,6 +61,14 @@
 </template>
 
 <script setup>
+  useSeoMeta({
+    title: 'Ostale usluge | Poduke Parallel',
+    ogTitle: 'Ostale usluge | Poduke Parallel',
+    description: 'Tu smo da vam pomognemo! Nudimo usluge pomoći u pisanju zadaća, seminara, projekata i lektira! Također nudimo usluge pripreme za natjecanja, organizacije seminara te edukacije iz različitih područja!',
+    ogDescription: 'Tu smo da vam pomognemo! Nudimo usluge pomoći u pisanju zadaća, seminara, projekata i lektira! Također nudimo usluge pripreme za natjecanja, organizacije seminara te edukacije iz različitih područja!',
+    ogImage: 'https://poduke.vercel.app/ostaleusluge.png',
+    twitterCard: 'https://poduke.vercel.app/ostaleusluge.png',
+  })
 </script>
 
 <style scoped>

@@ -307,6 +307,14 @@
 <script setup>
   import { ref } from "vue"
 
+  useSeoMeta({
+    title: 'Pripreme za državnu maturu | Poduke Parallel',
+    ogTitle: 'Pripreme za državnu maturu | Poduke Parallel',
+    description: 'Bez puno muke, uz Parallel poduke! Uspješno savladajte gradivo neophodno za polaganje državne mature!',
+    ogDescription: 'Bez puno muke, uz Parallel poduke! Uspješno savladajte gradivo neophodno za polaganje državne mature!',
+    ogImage: 'https://poduke.vercel.app/mojepripreme.png',
+    twitterCard: 'https://poduke.vercel.app/mojepripreme.png',
+  })
 
   const selectedPriprema = ref()
   const kosarica = ref([])
