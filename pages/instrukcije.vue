@@ -335,7 +335,7 @@
     description: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
     ogDescription: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
     ogImage: '@/public/instrukcijecjenik.png',
-    twitterCard: '@/public/instrukcijecjenik.png',
+    twitterCard: '../public/instrukcijecjenik.png',
   })
 
 
