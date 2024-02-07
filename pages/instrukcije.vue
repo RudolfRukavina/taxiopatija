@@ -334,8 +334,8 @@
     ogTitle: 'Instrukcije | Poduke Parallel',
     description: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
     ogDescription: 'Bez puno muke, uz Parallel poduke! Održavamo instrukcije iz svih obaveznih i velikog broja stručnih predmeta!',
-    ogImage: '@/public/instrukcijecjenik.png',
-    twitterCard: '../public/instrukcijecjenik.png',
+    ogImage: 'https://poduke.vercel.app/instrukcijecjenik.png',
+    twitterCard: 'https://poduke.vercel.app/instrukcijecjenik.png',
   })
 
 
