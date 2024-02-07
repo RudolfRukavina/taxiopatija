@@ -336,7 +336,7 @@
                 <li>
                   <a href="mailto:parallel.upiti@gmail.com"
                     class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"><i
-                      class='fa fa-envelope'> parallel.upiti@gmail.com</i></a>
+                      class='fa fa-envelope'> Pošaljite e-mail!</i></a>
                 </li>
                 <li>
                   <a href="https://maps.app.goo.gl/9dFa9f6sUkVuHxRD9" target='_blank'
