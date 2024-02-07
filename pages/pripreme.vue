@@ -321,7 +321,7 @@
 
 
   const generateMailtoLink = () => {
-    const recipient = 'info@parallel.hr';
+    const recipient = 'parallel.upiti@gmail.com';
     const subject = 'Upit za pripreme za državnu maturu';
     const body = selectedItemsText.value;
 
