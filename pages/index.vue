@@ -24,7 +24,7 @@
               Taxi Opatija
             </h1>
             <h2 class="text-xl font-bold tracking-tight text-gray-900">
-              Naša brza i pouzdana taxi služba.
+              Brza i pouzdana taxi služba.
             </h2>
             <div class="mt-10 flex items-center justify-center gap-x-6">
               <a id="callLink" href="tel:+38598491369" class="inline-block w-50">
